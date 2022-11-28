@@ -1,1 +1,11 @@
 nitik,aditya and siva
+<div id='Container'>
+            {state.map((el,index)=>{
+                return <div key={index+1}>
+                    <img style={{width:"90%",cursor:"pointer"}} src={el.image_1}/>
+                    <p style={{width:"90%",cursor:"pointer"}}>{el.title}</p>
+                    <p style={{width:"90%",cursor:"pointer"}}>{el.price}</p>
+                    <p style={{width:"90%",cursor:"pointer"}}>	&#9825;</p>
+                </div>
+            })}
+        </div>
