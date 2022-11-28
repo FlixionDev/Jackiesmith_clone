@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    justify-content: right;
+   padding-top: 10px;
+   background-color: white;
+}
+.upper{
+    width: 100%;
+    display: flex;
+    
+}
+.upper>div:first-child{
+    width: 15%;
+    padding-top: 10px;
+}
+.upper>div:nth-child(2){
+    width: 60%;
+    
+}
+.img{
+    margin-left: 40%;
+}
+.upper>div:last-child{
+    width: 25%;
+    padding-top: 10px;
+    
+}
+.icons{
+    width: 100%;
+    justify-content: space-between;
+}
+.lower{
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.links{
+    width: 70%;
+    margin: auto;
+    
+}
+.links>*{
+    margin-right: 20px;
+}
