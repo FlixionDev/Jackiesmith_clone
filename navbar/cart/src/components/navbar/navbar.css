@@ -27,10 +27,11 @@
 }
 .icons{
     width: 100%;
-    justify-content: space-between;
+    justify-content: right;
+    display: flex;
 }
 .icons>*{
-    margin-right: 15px;
+    margin-right: 35px;
 }
 .lower{
     width: 100%;

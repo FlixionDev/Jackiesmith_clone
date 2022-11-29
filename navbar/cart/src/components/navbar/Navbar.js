@@ -49,7 +49,7 @@ function Navbar() {
       </div>
     </div>
     <div className='cart'>{/* cart start */}
-            
+        
     </div>{/* cart end */}
     <div  >{/* dropdown start*/}
       {d1?<div onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}} ><Dropdown1 /></div>:""}
