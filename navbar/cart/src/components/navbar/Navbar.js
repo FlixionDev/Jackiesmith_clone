@@ -3,7 +3,7 @@ import './navbar.css'
 import {Link} from "react-router-dom"
 import { Image } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
-import { ChevronDownIcon} from '@chakra-ui/icons'
+import { ChevronDownIcon,CloseIcon} from '@chakra-ui/icons'
 import Dropdown1 from '../dropdown/Dropdown1'
 import Dropdown2 from '../dropdown/Dropdown2'
 import Dropdown3 from '../dropdown/Dropdown3'
@@ -48,9 +48,17 @@ function Navbar() {
           </div>
       </div>
     </div>
-    <div className='cart'>{/* cart start */}
-        
-    </div>{/* cart end */}
+    {cart?<div className='cart'>{/* cart start */}
+        <div className='cart_header'>
+          <div>CART</div>
+          <div onClick={()=>{
+                setCart(false);
+            }}><Icon as={CloseIcon} /></div>
+          <hr></hr>
+        </div>
+        <div></div>
+        </div>:""}{/* cart end */}
+    
     <div  >{/* dropdown start*/}
       {d1?<div onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}} ><Dropdown1 /></div>:""}
       {d2?<div onMouseOver={()=>{setd2(true);}}onMouseOut={()=>{setd2(false);}}><Dropdown2 /></div>:""}
