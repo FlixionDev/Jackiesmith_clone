@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./drop1.css"
 function dropdown1() {
    const products = [{ img: "https://cdn.shopify.com/s/files/1/0491/4541/3794/collections/Fotos_cuadradas_menu_0023_dear_350x.jpg?v=1663359658", name: "DEAR" },
@@ -28,8 +29,10 @@ function dropdown1() {
   return (
     <div className='drop1'>
       {products.map(({img,name},ind)=>{
-        console.log(name);
-        return <div key={ind+1}></div>
+        //console.log(name);
+        return <div key={ind+1} >
+          <Link><div className='ele'><img src={img} width="50px" height={"50px"}/><p>{name}</p></div></Link>
+        </div>
       })}
     </div>
   )
