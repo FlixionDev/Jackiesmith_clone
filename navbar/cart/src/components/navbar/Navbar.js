@@ -3,7 +3,7 @@ import './navbar.css'
 import {Link} from "react-router-dom"
 import { Image } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
-import { ChevronDownIcon,CloseIcon} from '@chakra-ui/icons'
+import { ChevronDownIcon,CloseIcon,SearchIcon} from '@chakra-ui/icons'
 import Dropdown1 from '../dropdown/Dropdown1'
 import Dropdown2 from '../dropdown/Dropdown2'
 import Dropdown3 from '../dropdown/Dropdown3'
@@ -31,7 +31,7 @@ function Navbar() {
         <div>  
           <div className='icons'>
             <Link><i className="fa-regular fa-user"></i></Link>
-            <Link><i className="fa-light fa-magnifying-glass"></i></Link>
+            <Link><Icon as={SearchIcon} /></Link>
             <Link><i className="fa-light fa-heart"></i></Link>
             <Link><div onClick={()=>{
                 setCart(true);
