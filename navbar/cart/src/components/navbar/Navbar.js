@@ -15,6 +15,7 @@ function Navbar() {
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
   const [cart,setCart]=useState(false);
+  const [cartlen,setCartlen]=useState([]);
   return (
     <div>
 <div className='navbar'>
@@ -40,6 +41,7 @@ function Navbar() {
       </div>
       <div className='lower'>
           <div className='links'>
+          <Link>   NEW ARRIVALS</Link>
             <Link onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}}>   BAGS<Icon as={ChevronDownIcon} /></Link>
             <Link onMouseOver={()=>{setd2(true);}}onMouseOut={()=>{setd2(false);}}>   ACCESSORIES<Icon as={ChevronDownIcon} /></Link>
             <Link onMouseOver={()=>{setd3(true);}}onMouseOut={()=>{setd3(false);}}>   CLOTHING<Icon as={ChevronDownIcon} /></Link>
@@ -56,7 +58,9 @@ function Navbar() {
             }}><Icon as={CloseIcon} /></div>
           <hr></hr>
         </div>
-        <div></div>
+        <div className='cart_footer'>
+          {cartlen.length>0? "Your cart is currently working.":"Your cart is currently empty."}
+        </div>
         </div>:""}{/* cart end */}
     
     <div  >{/* dropdown start*/}
