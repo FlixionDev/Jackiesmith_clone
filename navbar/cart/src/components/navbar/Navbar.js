@@ -14,6 +14,7 @@ function Navbar() {
   const [d2,setd2]=useState(false);
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
+  const [cart,setCart]=useState(false);
   return (
     <div>
 <div className='navbar'>
@@ -28,10 +29,12 @@ function Navbar() {
         </div>
         <div>  
           <div className='icons'>
-            <Link><i class="fa-regular fa-user"></i></Link>
-            <Link><i class="fa-light fa-magnifying-glass"></i></Link>
-            <Link><i class="fa-light fa-heart"></i></Link>
-            <Link><i class="fa-light fa-bag-shopping"></i></Link>
+            <Link><i className="fa-regular fa-user"></i></Link>
+            <Link><i className="fa-light fa-magnifying-glass"></i></Link>
+            <Link><i className="fa-light fa-heart"></i></Link>
+            <Link><div onClick={()=>{
+                setCart(true);
+            }}><i className="fa-light fa-bag-shopping"></i></div></Link>
           </div>
         </div>
       </div>
@@ -45,12 +48,15 @@ function Navbar() {
           </div>
       </div>
     </div>
-    <div  >
+    <div className='cart'>{/* cart start */}
+            
+    </div>{/* cart end */}
+    <div  >{/* dropdown start*/}
       {d1?<div onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}} ><Dropdown1 /></div>:""}
       {d2?<div onMouseOver={()=>{setd2(true);}}onMouseOut={()=>{setd2(false);}}><Dropdown2 /></div>:""}
       {d3?<div onMouseOver={()=>{setd3(true);}}onMouseOut={()=>{setd3(false);}}><Dropdown3 /></div>:""}
       {d4?<div onMouseOver={()=>{setd4(true);}}onMouseOut={()=>{setd4(false);}}><Dropdown4 /></div>:""}
-    </div>
+    </div>{/* dropdown end */}
     </div>
     
   )
