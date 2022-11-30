@@ -44,6 +44,7 @@ export default function Home() {
             setWcloth(res);
         })
     }
+    
     // const storetoLocal=(data)=>{
     //     var product=JSON.parse(localStorage.getItem("productToBuy")) || [];
     //     console.log(data)

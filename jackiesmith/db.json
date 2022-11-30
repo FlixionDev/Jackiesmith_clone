@@ -1,250 +1,2034 @@
 {
-  "bags": [{
-    "id": 1,
-    "title": "GOTHAM POWER COLOR BELT BAG",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_A_1800x1800.jpg?v=1663269548",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_B_1800x1800.jpg?v=1663269548"
-  }, {
-    "id": 2,
-    "title": "GOTHAM POWER COLOR BELT BAG",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_A_1800x1800.jpg?v=1663269816",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_B_1800x1800.jpg?v=1663269816"
-  }, {
-    "id": 3,
-    "title": "GOTHAM POWER COLOR BELT BAG",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_A_1800x1800.jpg?v=1663269990",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_B_1800x1800.jpg?v=1663269990"
-  }, {
-    "id": 4,
-    "title": "DEAR BACKPACK",
-    "price": "$165",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJD55Q99_BAJA_A_1_1800x1800.jpg?v=1657909605",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJD55Q99_BAJA_B_1800x1800.jpg?v=1663273830"
-  }, {
-    "id": 5,
-    "title": "DEAR BACKPACK",
-    "price": "$165",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJC12Z98_BAJA_A_1_1800x1800.jpg?v=1657909304",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJC12Z98_BAJA_B_1800x1800.jpg?v=1663273671"
-  }, {
-    "id": 6,
-    "title": "DEAR BACKPACK",
-    "price": "$165",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJA60Z98_BAJA_A_1_1800x1800.jpg?v=1657909399",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJA60Z98_BAJA_B_1800x1800.jpg?v=1663273478"
-  }, {
-    "id": 7,
-    "title": "MINI FLORA LIMITED EDITION",
-    "price": "$595",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRB41Z98_BAJA_A_1800x1800.jpg?v=1667305899",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRB41Z98_BAJA_B_1800x1800.jpg?v=1667305899"
-  }, {
-    "id": 8,
-    "title": "MINI FLORA LIMITED EDITION",
-    "price": "$595",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA90N98_BAJA_A_1800x1800.jpg?v=1667305883",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA90N98_BAJA_B_1800x1800.jpg?v=1667305883"
-  }, {
-    "id": 9,
-    "title": "MINI FLORA LIMITED EDITION",
-    "price": "$595",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA87F98_BAJA_A_38067e22-ea4f-4d69-abd7-3888d5257bdb_1800x1800.jpg?v=1667305875",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA87F98_BAJA_B_12175781-4de3-4498-b527-4937c5505927_1800x1800.jpg?v=1667305875"
-  }, {
-    "id": 10,
-    "title": "JANE BELT BAG",
-    "price": "$135",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPC66N99_BAJA_A_7b8bc4d0-d1b6-4a14-ab89-cff148496594_1800x1800.jpg?v=1665085539",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPC66N99_BAJA_B_67da329b-be8e-4b85-8218-64b553027e8a_1800x1800.jpg?v=1665085539"
-  }, {
-    "id": 11,
-    "title": "JANE BELT BAG",
-    "price": "$135",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPA13N99_BAJA_A_1800x1800.jpg?v=1665089917",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPA13N99_BAJA_B_1800x1800.jpg?v=1665089917"
-  }, {
-    "id": 12,
-    "title": "JANE BELT BAG",
-    "price": "$135",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPD24N99_BAJA_A_0c1fab12-bffa-4e73-b578-00abc5a30d8c_1800x1800.jpg?v=1665085550",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPD24N99_BAJA_B_e94fab5e-0d34-4a35-bbc7-ff0c0fc0e01c_1800x1800.jpg?v=1665085550"
-  }, {
-    "id": 13,
-    "title": "TOKYO",
-    "price": "$125",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB95N94_BAJA_A_1800x1800.jpg?v=1661455235",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB95N94_BAJA_B_1800x1800.jpg?v=1661455236"
-  }, {
-    "id": 14,
-    "title": "TOKYO",
-    "price": "$125",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGC32N94_BAJA_A_1800x1800.jpg?v=1661455246",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGC32N94_BAJA_B_1800x1800.jpg?v=1661455246"
-  }, {
-    "id": 15,
-    "title": "TOKYO",
-    "price": "$125",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD07N94_BAJA_A_1800x1800.jpg?v=1661455257",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD07N94_BAJA_B_1800x1800.jpg?v=1661455257"
-  }, {
-    "id": 16,
-    "title": "LINA",
-    "price": "$350",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGC34N98_BAJA_A_1800x1800.jpg?v=1666269875",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VG_WEB_Lina_Cotton_1800x1800.jpg?v=1666354696"
-  }, {
-    "id": 17,
-    "title": "LINA",
-    "price": "$350",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGA01N98_BAJA_A_2a3a9726-0142-44c7-9dd8-504c8ecc8cf6_1800x1800.jpg?v=1666126891",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VG_WEB_Lina_Black_540x.jpg?v=1666354628"
-  }, {
-    "id": 18,
-    "title": "LINA",
-    "price": "$350",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGC03N98_BAJA_A_24d51b47-956d-4721-9046-dc5448f9856c_1800x1800.jpg?v=1666126898",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VT_WEB_Lina_Miele_1800x1800.jpg?v=1666354660"
-  }, {
-    "id": 19,
-    "title": "TOKYO",
-    "price": "$125",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB40N94_BAJA_A_1800x1800.jpg?v=1661455223",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB40N94_BAJA_B_1800x1800.jpg?v=1661455223"
-  }, {
-    "id": 20,
-    "title": "JANE SHOULDER BAG",
-    "price": "$195",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02021MPA01U99_baja_a_1800x1800.jpg?v=1653578219",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02021MPA01U99_baja_b_1800x1800.jpg?v=1660675480"
-  }, {
-    "id": 21,
-    "title": "TOKYO",
-    "price": "$125",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD29N94_BAJA_A_1800x1800.jpg?v=1661455269",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD29N94_BAJA_B_1800x1800.jpg?v=1661455269"
-  }],
-  "Women_Clothing": [{
-    "id": 1,
-    "title": "ART WE LIVE IN T-SHIRT",
-    "price": "$145",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_A_1800x1800.jpg?v=1665587665",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_Djpg_1800x1800.jpg?v=1666124059"
-  }, {
-    "id": 2,
-    "title": "ART WE LIVE IN T-SHIRT",
-    "price": "$145",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_A_1800x1800.jpg?v=1665587681",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_D_1800x1800.jpg?v=1666123921"
-  }, {
-    "id": 3,
-    "title": "ART WE LIVE IN T-SHIRT",
-    "price": "$145",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_A_1800x1800.jpg?v=1665587670",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_D_1800x1800.jpg?v=1666124084"
-  }, {
-    "id": 4,
-    "title": "Honorable",
-    "price": "$191.54",
-    "image_1": "http://dummyimage.com/125x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/246x100.png/dddddd/000000"
-  }, {
-    "id": 5,
-    "title": "Mr",
-    "price": "$103.58",
-    "image_1": "http://dummyimage.com/224x100.png/cc0000/ffffff",
-    "image_2": "http://dummyimage.com/213x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 6,
-    "title": "Mr",
-    "price": "$163.95",
-    "image_1": "http://dummyimage.com/115x100.png/ff4444/ffffff",
-    "image_2": "http://dummyimage.com/195x100.png/ff4444/ffffff"
-  }, {
-    "id": 7,
-    "title": "Dr",
-    "price": "$110.09",
-    "image_1": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/149x100.png/cc0000/ffffff"
-  }, {
-    "id": 8,
-    "title": "Dr",
-    "price": "$129.52",
-    "image_1": "http://dummyimage.com/197x100.png/dddddd/000000",
-    "image_2": "http://dummyimage.com/166x100.png/dddddd/000000"
-  }, {
-    "id": 9,
-    "title": "Dr",
-    "price": "$106.98",
-    "image_1": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/101x100.png/ff4444/ffffff"
-  }, {
-    "id": 10,
-    "title": "Dr",
-    "price": "$104.10",
-    "image_1": "http://dummyimage.com/166x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/131x100.png/cc0000/ffffff"
-  }, {
-    "id": 11,
-    "title": "Rev",
-    "price": "$180.55",
-    "image_1": "http://dummyimage.com/109x100.png/dddddd/000000",
-    "image_2": "http://dummyimage.com/223x100.png/cc0000/ffffff"
-  }, {
-    "id": 12,
-    "title": "Mrs",
-    "price": "$189.23",
-    "image_1": "http://dummyimage.com/170x100.png/ff4444/ffffff",
-    "image_2": "http://dummyimage.com/249x100.png/dddddd/000000"
-  }, {
-    "id": 13,
-    "title": "Ms",
-    "price": "$113.89",
-    "image_1": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/226x100.png/ff4444/ffffff"
-  }, {
-    "id": 14,
-    "title": "Mr",
-    "price": "$146.75",
-    "image_1": "http://dummyimage.com/155x100.png/dddddd/000000",
-    "image_2": "http://dummyimage.com/148x100.png/ff4444/ffffff"
-  }, {
-    "id": 15,
-    "title": "Mrs",
-    "price": "$186.83",
-    "image_1": "http://dummyimage.com/161x100.png/ff4444/ffffff",
-    "image_2": "http://dummyimage.com/206x100.png/dddddd/000000"
-  }, {
-    "id": 16,
-    "title": "Mr",
-    "price": "$196.41",
-    "image_1": "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/138x100.png/5fa2dd/ffffff"
-  }, {
-    "id": 17,
-    "title": "Mrs",
-    "price": "$181.14",
-    "image_1": "http://dummyimage.com/249x100.png/5fa2dd/ffffff",
-    "image_2": "http://dummyimage.com/237x100.png/dddddd/000000"
-  }, {
-    "id": 18,
-    "title": "Mr",
-    "price": "$128.88",
-    "image_1": "http://dummyimage.com/243x100.png/cc0000/ffffff",
-    "image_2": "http://dummyimage.com/149x100.png/ff4444/ffffff"
-  }, {
-    "id": 19,
-    "title": "Honorable",
-    "price": "$104.44",
-    "image_1": "http://dummyimage.com/217x100.png/ff4444/ffffff",
-    "image_2": "http://dummyimage.com/172x100.png/dddddd/000000"
-  }, {
-    "id": 20,
-    "title": "Honorable",
-    "price": "$138.09",
-    "image_1": "http://dummyimage.com/249x100.png/cc0000/ffffff",
-    "image_2": "http://dummyimage.com/237x100.png/ff4444/ffffff"
-  }]
+  "bags": [
+    {
+      "id": 1,
+      "title": "GOTHAM POWER COLOR BELT BAG",
+      "price": "$140",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_A_1800x1800.jpg?v=1663269548",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_B_1800x1800.jpg?v=1663269548"
+    },
+    {
+      "id": 2,
+      "title": "GOTHAM POWER COLOR BELT BAG",
+      "price": "$140",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_A_1800x1800.jpg?v=1663269816",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_B_1800x1800.jpg?v=1663269816"
+    },
+    {
+      "id": 3,
+      "title": "GOTHAM POWER COLOR BELT BAG",
+      "price": "$140",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_A_1800x1800.jpg?v=1663269990",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_B_1800x1800.jpg?v=1663269990"
+    },
+    {
+      "id": 4,
+      "title": "DEAR BACKPACK",
+      "price": "$165",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJD55Q99_BAJA_A_1_1800x1800.jpg?v=1657909605",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJD55Q99_BAJA_B_1800x1800.jpg?v=1663273830"
+    },
+    {
+      "id": 5,
+      "title": "DEAR BACKPACK",
+      "price": "$165",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJC12Z98_BAJA_A_1_1800x1800.jpg?v=1657909304",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJC12Z98_BAJA_B_1800x1800.jpg?v=1663273671"
+    },
+    {
+      "id": 6,
+      "title": "DEAR BACKPACK",
+      "price": "$165",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJA60Z98_BAJA_A_1_1800x1800.jpg?v=1657909399",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00723MJA60Z98_BAJA_B_1800x1800.jpg?v=1663273478"
+    },
+    {
+      "id": 7,
+      "title": "MINI FLORA LIMITED EDITION",
+      "price": "$595",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRB41Z98_BAJA_A_1800x1800.jpg?v=1667305899",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRB41Z98_BAJA_B_1800x1800.jpg?v=1667305899"
+    },
+    {
+      "id": 8,
+      "title": "MINI FLORA LIMITED EDITION",
+      "price": "$595",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA90N98_BAJA_A_1800x1800.jpg?v=1667305883",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA90N98_BAJA_B_1800x1800.jpg?v=1667305883"
+    },
+    {
+      "id": 9,
+      "title": "MINI FLORA LIMITED EDITION",
+      "price": "$595",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA87F98_BAJA_A_38067e22-ea4f-4d69-abd7-3888d5257bdb_1800x1800.jpg?v=1667305875",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/LD00558GRA87F98_BAJA_B_12175781-4de3-4498-b527-4937c5505927_1800x1800.jpg?v=1667305875"
+    },
+    {
+      "id": 10,
+      "title": "JANE BELT BAG",
+      "price": "$135",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPC66N99_BAJA_A_7b8bc4d0-d1b6-4a14-ab89-cff148496594_1800x1800.jpg?v=1665085539",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPC66N99_BAJA_B_67da329b-be8e-4b85-8218-64b553027e8a_1800x1800.jpg?v=1665085539"
+    },
+    {
+      "id": 11,
+      "title": "JANE BELT BAG",
+      "price": "$135",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPA13N99_BAJA_A_1800x1800.jpg?v=1665089917",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPA13N99_BAJA_B_1800x1800.jpg?v=1665089917"
+    },
+    {
+      "id": 12,
+      "title": "JANE BELT BAG",
+      "price": "$135",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPD24N99_BAJA_A_0c1fab12-bffa-4e73-b578-00abc5a30d8c_1800x1800.jpg?v=1665085550",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02022MPD24N99_BAJA_B_e94fab5e-0d34-4a35-bbc7-ff0c0fc0e01c_1800x1800.jpg?v=1665085550"
+    },
+    {
+      "id": 13,
+      "title": "TOKYO",
+      "price": "$125",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB95N94_BAJA_A_1800x1800.jpg?v=1661455235",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB95N94_BAJA_B_1800x1800.jpg?v=1661455236"
+    },
+    {
+      "id": 14,
+      "title": "TOKYO",
+      "price": "$125",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGC32N94_BAJA_A_1800x1800.jpg?v=1661455246",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGC32N94_BAJA_B_1800x1800.jpg?v=1661455246"
+    },
+    {
+      "id": 15,
+      "title": "TOKYO",
+      "price": "$125",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD07N94_BAJA_A_1800x1800.jpg?v=1661455257",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD07N94_BAJA_B_1800x1800.jpg?v=1661455257"
+    },
+    {
+      "id": 16,
+      "title": "LINA",
+      "price": "$350",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGC34N98_BAJA_A_1800x1800.jpg?v=1666269875",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VG_WEB_Lina_Cotton_1800x1800.jpg?v=1666354696"
+    },
+    {
+      "id": 17,
+      "title": "LINA",
+      "price": "$350",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGA01N98_BAJA_A_2a3a9726-0142-44c7-9dd8-504c8ecc8cf6_1800x1800.jpg?v=1666126891",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VG_WEB_Lina_Black_540x.jpg?v=1666354628"
+    },
+    {
+      "id": 18,
+      "title": "LINA",
+      "price": "$350",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02001PGC03N98_BAJA_A_24d51b47-956d-4721-9046-dc5448f9856c_1800x1800.jpg?v=1666126898",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/E_304_VT_WEB_Lina_Miele_1800x1800.jpg?v=1666354660"
+    },
+    {
+      "id": 19,
+      "title": "TOKYO",
+      "price": "$125",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB40N94_BAJA_A_1800x1800.jpg?v=1661455223",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGB40N94_BAJA_B_1800x1800.jpg?v=1661455223"
+    },
+    {
+      "id": 20,
+      "title": "JANE SHOULDER BAG",
+      "price": "$195",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02021MPA01U99_baja_a_1800x1800.jpg?v=1653578219",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP02021MPA01U99_baja_b_1800x1800.jpg?v=1660675480"
+    },
+    {
+      "id": 21,
+      "title": "TOKYO",
+      "price": "$125",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD29N94_BAJA_A_1800x1800.jpg?v=1661455269",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00763AGD29N94_BAJA_B_1800x1800.jpg?v=1661455269"
+    }
+  ],
+  "Women_Clothing": [
+    {
+      "id": 1,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_A_1800x1800.jpg?v=1665587665",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_Djpg_1800x1800.jpg?v=1666124059"
+    },
+    {
+      "id": 2,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_A_1800x1800.jpg?v=1665587681",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_D_1800x1800.jpg?v=1666123921"
+    },
+    {
+      "id": 3,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_A_1800x1800.jpg?v=1665587670",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_D_1800x1800.jpg?v=1666124084"
+    },
+    {
+      "id": 4,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_A_540x.jpg?v=1665587681",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGA01V_BAJA_D_1800x1800.jpg?v=1666123921"
+    },
+    {
+      "id": 5,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_A_1800x1800.jpg?v=1665587670",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB980_BAJA_D_1800x1800.jpg?v=1666124084"
+    },
+    {
+      "id": 6,
+      "title": "ART WE LIVE IN T-SHIRT",
+      "price": "$145",
+      "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_A_1800x1800.jpg?v=1665587665",
+      "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/AXR2122AGB320_BAJA_Djpg_1800x1800.jpg?v=1666124059"
+    },
+    {
+      "id": 7,
+      "title": "Dr",
+      "price": "$110.09",
+      "image_1": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/149x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 8,
+      "title": "Dr",
+      "price": "$129.52",
+      "image_1": "http://dummyimage.com/197x100.png/dddddd/000000",
+      "image_2": "http://dummyimage.com/166x100.png/dddddd/000000"
+    },
+    {
+      "id": 9,
+      "title": "Dr",
+      "price": "$106.98",
+      "image_1": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/101x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 10,
+      "title": "Dr",
+      "price": "$104.10",
+      "image_1": "http://dummyimage.com/166x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/131x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 11,
+      "title": "Rev",
+      "price": "$180.55",
+      "image_1": "http://dummyimage.com/109x100.png/dddddd/000000",
+      "image_2": "http://dummyimage.com/223x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 12,
+      "title": "Mrs",
+      "price": "$189.23",
+      "image_1": "http://dummyimage.com/170x100.png/ff4444/ffffff",
+      "image_2": "http://dummyimage.com/249x100.png/dddddd/000000"
+    },
+    {
+      "id": 13,
+      "title": "Ms",
+      "price": "$113.89",
+      "image_1": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/226x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 14,
+      "title": "Mr",
+      "price": "$146.75",
+      "image_1": "http://dummyimage.com/155x100.png/dddddd/000000",
+      "image_2": "http://dummyimage.com/148x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 15,
+      "title": "Mrs",
+      "price": "$186.83",
+      "image_1": "http://dummyimage.com/161x100.png/ff4444/ffffff",
+      "image_2": "http://dummyimage.com/206x100.png/dddddd/000000"
+    },
+    {
+      "id": 16,
+      "title": "Mr",
+      "price": "$196.41",
+      "image_1": "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/138x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 17,
+      "title": "Mrs",
+      "price": "$181.14",
+      "image_1": "http://dummyimage.com/249x100.png/5fa2dd/ffffff",
+      "image_2": "http://dummyimage.com/237x100.png/dddddd/000000"
+    },
+    {
+      "id": 18,
+      "title": "Mr",
+      "price": "$128.88",
+      "image_1": "http://dummyimage.com/243x100.png/cc0000/ffffff",
+      "image_2": "http://dummyimage.com/149x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 19,
+      "title": "Honorable",
+      "price": "$104.44",
+      "image_1": "http://dummyimage.com/217x100.png/ff4444/ffffff",
+      "image_2": "http://dummyimage.com/172x100.png/dddddd/000000"
+    },
+    {
+      "id": 20,
+      "title": "Honorable",
+      "price": "$138.09",
+      "image_1": "http://dummyimage.com/249x100.png/cc0000/ffffff",
+      "image_2": "http://dummyimage.com/237x100.png/ff4444/ffffff"
+    }
+  ],
+  "clothing": [
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2152tja150",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJA150_BAJA_D_1800x1800.jpg?v=1669235200",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJA150_BAJA_A_400x.jpg?v=1666632570",
+      "title": "In Bloom Cropped T-Shirt",
+      "price": "$23",
+      "id": 1
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2152tjb410",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJB410_BAJA_E_1800x1800.jpg?v=1669235284",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJB410_BAJA_A_400x.jpg?v=1666632633",
+      "title": "In Bloom Cropped T-Shirt",
+      "price": "$23",
+      "id": 2
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2152tjb320",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJB320_BAJA_D_1800x1800.jpg?v=1669235228",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJB320_BAJA_A_400x.jpg?v=1666971577",
+      "title": "In Bloom Cropped T-Shirt",
+      "price": "$23",
+      "id": 3
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2152tjc660",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJC660_BAJA_E_1800x1800.jpg?v=1669235257",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2152TJC660_BAJA_A_400x.jpg?v=1666632665",
+      "title": "In Bloom Cropped T-Shirt",
+      "price": "$23",
+      "id": 4
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/av92102dea030",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AV92102DEA030_BAJA_E_1800x1800.jpg?v=1669235045",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AV92102DEA03026_baja_a_400x.jpg?v=1643403645",
+      "title": "Distressed Denim shorts",
+      "price": "$19",
+      "id": 5
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn2136dea010",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2136DEA010_BAJA_E_1800x1800.jpg?v=1668782731",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2136DEA010_BAJA_A_400x.jpg?v=1667485481",
+      "title": "Mr Smith Straight-Leg",
+      "price": "$28",
+      "id": 6
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122agb320",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB320_BAJA_Djpg_1800x1800.jpg?v=1666124055",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB320_BAJA_A_400x.jpg?v=1664829527",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id": 7
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj50960cya01n",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960CYA01N_Flatlay_baja_b_1800x1800.jpg?v=1668783089",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960CYA01N_Flatlay_baja_a_400x.jpg?v=1626192091",
+      "title": "Mr Smith Vanilla Jacket",
+      "price": "$30",
+      "id": 8
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122agb980",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB980_BAJA_D_1800x1800.jpg?v=1666124080",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB980_BAJA_A_400x.jpg?v=1664830108",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id":9
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122agc030",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGC030_BAJA_D_540x.jpg?v=1666124028",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGC030_BAJA_A_400x.jpg?v=166425",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id":10
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122aga01v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGA01V_BAJA_D_1800x1800.jpg?v=1666123916",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGA01V_BAJA_A_400x.jpg?v=1664826928",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id":11
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122agd02z",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGD02Z_BAJA_D_1800x1800.jpg?v=1666123991",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGD02Z_BAJA_A_400x.jpg?v=1664827653",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id":12
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2122agb43o",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB43O_BAJA_D_1800x1800.jpg?v=1666123959",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2122AGB43O_BAJA_A_400x.jpg?v=1664828484",
+      "title": "Art We Live In T-Shirt",
+      "price": "$21",
+      "id":13
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/tp60931tjb44v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJB44V_ALTA_E_1_BAJA_1800x1800.jpg?v=1668096181",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJB44V_BAJA_A_400x.jpg?v=1667333486",
+      "title": "Coat Limited Edition",
+      "price": "$139",
+      "id":14
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/tp60931tjd54v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJD54V_BAJA_E_1800x1800.jpg?v=1668096192",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJD54V_BAJA_A_400x.jpg?v=1667333563",
+      "title": "Coat Limited Edition",
+      "price": "$139",
+      "id":15
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/tp60931tja01w",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJA01W_ALTA_E_1_BAJA_1800x1800.jpg?v=1668096198",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/TP60931TJA01W_BAJA_A_400x.jpg?v=1667333343",
+      "title": "Coat Limited Edition",
+      "price": "$139",
+      "id":16
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2092aga35j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGA35J_BAJA_I_1800x1800.jpg?v=1662566354",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGA35J_BAJA_A_400x.jpg?v=1661880098",
+      "title": "Bisou Bisou Sweatshirt",
+      "price": "$33",
+      "id":17
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2092agb44j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGB44J_BAJA_I_1800x1800.jpg?v=1662068019",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGB44J_BAJA_A_400x.jpg?v=1661881357",
+      "title": "Bisou Bisou Sweatshirt",
+      "price": "$33",
+      "id":18
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2092aga99j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGA99J_BAJA_A_1800x1800.jpg?v=1661889154",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2092AGA99J_BAJA_A_400x.jpg?v=1661889154",
+      "title": "Bisou Bisou Sweatshirt",
+      "price": "$33",
+      "id":19
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/pnp2091aga35j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGA35J_BAJA_I_1800x1800.jpg?v=1662492000",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGA35J_BAJA_A_400x.jpg?v=1662492000",
+      "title": "Bisou Bisou Sweatpants",
+      "price": "$31",
+      "id":20
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/pnp2091agb44j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGB44J_BAJA_I_1800x1800.jpg?v=1662492120",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGB44J_BAJA_A_400x.jpg?v=1662492120",
+      "title": "Bisou Bisou Sweatpants",
+      "price": "$31",
+      "id":21
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/pnp2091aga99j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGA99J_BAJA_I_1800x1800.jpg?v=1662492063",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/PNP2091AGA99J_BAJA_A_400x.jpg?v=1662492063",
+      "title": "Bisou Bisou Sweatpants",
+      "price": "$31",
+      "id":22
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2097aga35j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGA35J_BAJA_J_1800x1800.jpg?v=1662053217",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGA35J_BAJA_A_400x.jpg?v=1662053217",
+      "title": "Bisou Bisou T- Shirt",
+      "price": "$17",
+      "id":23
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2097agb44j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGB44J_BAJA_I_1800x1800.jpg?v=1662053448",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGB44JBZB2150AGB44J_BAJA_A_400x.jpg?v=1662053448",
+      "title": "Bisou Bisou T- Shirt",
+      "price": "$17",
+      "id":24
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr2097aga99j",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGA99JBZB2150AGA99J_BAJA_L_1800x1800.jpg?v=1661970143",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR2097AGA99J_BAJA_A_400x.jpg?v=1661970143",
+      "title": "Bisou Bisou T- Shirt",
+      "price": "$17",
+      "id":25
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj52080dea011",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ52080DEA011T1_baja_a_1800x1800.jpg?v=1661360864",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ52080DEA011T1_baja_b_400x.jpg?v=1659979291",
+      "title": "Like a local Jacket",
+      "price": "$42",
+      "id":26
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj50959dea010",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50959DEA01003_baja_c_1800x1800.jpg?v=1660251992",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50959DEA01003_baja_a_400x.jpg?v=1636981338",
+      "title": "Mr Smith Glossy Slim Jacket",
+      "price": "$48",
+      "id":27
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2053agc66t",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGC66T_BAJA_F_8ce07717-64d2-4409-82a9-934ae13c3854_1800x1800.jpg?v=1662057406",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGC66T_BAJA_A_400x.jpg?v=1653340012",
+      "title": "Mr. Smith College Sweatshirt",
+      "price": "$37",
+      "id":28
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2053agd29v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGD29V_BAJA_H_30568610-99aa-4274-8ff5-eaea47791565_1800x1800.jpg?v=1662057507",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGD29V_BAJA_A_400x.jpg?v=165335",
+      "title": "Mr. Smith College Sweatshirt",
+      "price": "$37",
+      "id":29
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2053aga05k",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGA05K_BAJA_G_c9b91817-e9bf-49eb-ab3d-d68a79ae7fbb_1800x1800.jpg?v=1662057515",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGA05K_BAJA_A_400x.jpg?v=1653340111",
+      "title": "Mr. Smith College Sweatshirt",
+      "price": "$37",
+      "id":30
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2053aga011",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGA011_BAJA_I_1800x1800.jpg?v=1662053498",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGA011_BAJA_A_400x.jpg?v=1661730996",
+      "title": "Smith Sweatshirt Limited Edition",
+      "price": "$59",
+      "id":31
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2053agd291",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGD291_BAJA_L_1800x1800.jpg?v=1662053505",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2053AGD291_BAJA_A_400x.jpg?v=1661731343",
+      "title": "Smith Sweatshirt Limited Edition",
+      "price": "$59",
+      "id":32
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr0964aga35r",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA35R03_BAJA_J_1800x1800.jpg?v=1660251683",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA35R_flatlay_baja_a_400x.jpg?v=1631726834",
+      "title": "Love T-shirt",
+      "price": "$16",
+      "id":33
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr0964aga07c",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA07C03_BAJA_L_1800x1800.jpg?v=1661970193",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA07C_flatlay_baja_a_400x.jpg?v=163172",
+      "title": "Love T-shirt",
+      "price": "$16",
+      "id":34
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr0964aga22v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA22V03_BAJA_J_1800x1800.jpg?v=1660251675",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR0964AGA22V_flatlay_baja_a_400x.jpg?v=1631726808",
+      "title": "Love T-shirt",
+      "price": "$16",
+      "id":35
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr1971aga01v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA01V03_BAJA_K_1800x1800.jpg?v=1660251691",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA01V_flatlay_baja_a_400x.jpg?v=1632756884",
+      "title": "Who Cares T- Shirt",
+      "price": "$14",
+      "id":36
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr1971aga07v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA07V03_BAJA_I_1800x1800.jpg?v=1661970233",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA07V_flatlay_baja_a_400x.jpg?v=1629392209",
+      "title": "Saturday T- Shirt",
+      "price": "$13",
+      "id":37
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj50960dea05k",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05K_BAJA_A_1800x1800.jpg?v=1649455226",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05K_BAJA_B_400x.jpg?v=1649455226",
+      "title": "Denim Jacket Limited Edition",
+      "price": "$50",
+      "id":38
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj50960dea05f",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05F_BAJA_A_1800x1800.jpg?v=1649455277",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05F_BAJA_B_400x.jpg?v=1649455277",
+      "title": "Denim Jacket Limited Edition",
+      "price": "$50",
+      "id":39
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj50960dea05z",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05Z_BAJA_A_1800x1800.jpg?v=1649455239",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ50960DEA05Z_BAJA_B_400x.jpg?v=1649455239",
+      "title": "Denim Jacket Limited Edition",
+      "price": "$50",
+      "id":40
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn2006gba010",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2006GBA010_BAJA_B_1800x1800.jpg?v=1661528667",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2006GBA010_baja_flatlay_a_400x.jpg?v=1598563713",
+      "title": "Mr Smith Baggy",
+      "price": "$23",
+      "id":42
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb0774aga271",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB0774AGA271_BAJA_K_1800x1800.jpg?v=1662053388",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB0774AGA271_BAJA_A_400x.jpg?v=165329",
+      "title": "Joy Sweatshirt",
+      "price": "$50",
+      "id":43
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr1968aga35n",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1968AGA35N03_BAJA_J_1800x1800.jpg?v=1660251800",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1968AGA35N_flatlay_baja_a_400x.jpg?v=1626879106",
+      "title": "Romance T- Shirt",
+      "price": "$13",
+      "id":44
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb0774aga01w",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB0774AGA01W_BAJA_F_1800x1800.jpg?v=1662053546",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB0774AGA01W_BAJA_A_400x.jpg?v=1660843726",
+      "title": "Type Sweatshirt",
+      "price": "$52",
+      "id":45
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2116aga26v",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA26V_BAJA_Djpg_1800x1800.jpg?v=1651520885",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA26V_BAJA_A_400x.jpg?v=1651496173",
+      "title": "Sunrise  Sweatshirt",
+      "price": "$37",
+      "id":46
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2116aga01y",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA01YT1_BAJA_D_1800x1800.jpg?v=1651506860",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA01YT1_BAJA_A_400x.jpg?v=1651256555",
+      "title": "Sunrise  Sweatshirt",
+      "price": "$37",
+      "id":47
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/bzb2116aga55n",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA55NT1_BAJA_B_1800x1800.jpg?v=1651498528",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/BZB2116AGA55NT1_BAJA_A_400x.jpg?v=1651498527",
+      "title": "Sunrise  Sweatshirt",
+      "price": "$37",
+      "id":48
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr1971aga07d",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA07D04_BAJA_I_1800x1800.jpg?v=1660251819",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1971AGA07D_flatlay_baja_a_400x.jpg?v=1629392187",
+      "title": "Love & Peace T- Shirt",
+      "price": "$13",
+      "id":49
+    },
+    
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/axr1967aga01r",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1967AGA01R_BAJA_C_1800x1800.jpg?v=1661970277",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/AXR1967AGA01R_baja_flatlay_a_400x.jpg?v=1603207681",
+      "title": "Oops T-shirt",
+      "price": "$13",
+      "id":50
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn2085dec330",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2085DEC33026_BAJA_I_1800x1800.jpg?v=1659838463",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2085DEC33026_baja_a_400x.jpg?v=1643662832",
+      "title": "Mr. Smith Flared",
+      "price": "$25",
+      "id":51
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/cj52081dea18b",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ52081DEA18BT2_BAJA_I_1800x1800.jpg?v=1662055252",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CJ52081DEA18B_BAJA_A_400x.jpg?v=1655222235",
+      "title": "Tartan Denim Jacket",
+      "price": "$39",
+      "id":52
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn2117dea01n",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2117DEA01N25_BAJA_I_1800x1800.jpg?v=1659985483",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2117DEA01N_BAJA_A_400x.jpg?v=1658492037",
+      "title": "Mr Smith Black Slim Fit",
+      "price": "$26",
+      "id":53
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn0913dea62r",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN0913DEA62R25_BAJA_J_1800x1800.jpg?v=1659837938",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN0913DEA62R_flatlay_baja_a_400x.jpg?v=162584",
+      "title": "Mr Smith Straight-Leg",
+      "price": "$25",
+      "id":54
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/clothing/products/dmn2099dea18b",
+      "image_2": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2099DEA18B24_BAJA_J_1800x1800.jpg?v=1659977066",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/DMN2099DEA18B_BAJA_A_400x.jpg?v=1653587015",
+      "title": "Tartan Wide Leg Denim",
+      "price": "$28",
+      "id":55
+    }
+  ],
+  "sneaker":[
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grd371",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD371_BAJA_A_400x.jpg?v=1668698258",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD371_BAJA_B_1800x1800.jpg?v=1668698258",
+      "id":"1"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grc61u",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRC61U_BAJA_A_400x.jpg?v=1668698205",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRC61U_BAJA_B_360x.jpg?v=1668698205",
+      "id":"2"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gra90z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRA90Z_BAJA_A_400x.jpg?v=1664205483",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRA90Z_BAJA_E_1800x1800.jpg?v=1664572421",
+      "id":"3"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grb41y",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB41Y_BAJA_A_400x.jpg?v=1664205535",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB41Y_BAJA_E_1800x1800.jpg?v=1664572480",
+      "id":"4"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gre22z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRE22Z_BAJA_A_400x.jpg?v=1664460085",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRE22Z_BAJA_E_1800x1800.jpg?v=1664572401",
+      "id":"5"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grd24y",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD24Y_BAJA_A_400x.jpg?v=1664484626",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD24Y_BAJA_E_1800x1800.jpg?v=1664572460",
+      "id":"6"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grb43z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB43Z_BAJA_A_400x.jpg?v=1664484602",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB43Z_BAJA_E_1800x1800.jpg?v=1664572368",
+      "id":"7"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grb01n",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB01N_BAJA_A_400x.jpg?v=1664476516",
+      "title": "Sneakers Limited Edition",
+      "price": "$72.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB01N_BAJA_E_1800x1800.jpg?v=1664572442",
+      "id":"8"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526mzc31r",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526MZC31R_BAJA_A_257d85db-430a-43b0-85c5-bea28e9cc5db_400x.jpg?v=1663967550",
+      "title": "Sneakers Bisou Bisou",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526MZC31R_BAJA_B_37b1fe2f-a257-4969-85e3-b8a58d8a5451_1800x1800.jpg?v=1663967550",
+      "id":"9"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526nab44z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAB44Z_BAJA_A_400x.jpg?v=1662483153",
+      "title": "Sneakers Bisou Bisou",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAB44Z_BAJA_B_360x.jpg?v=1662483153",
+      "id":"10"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526naa01v",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01V36_BAJA_A_400x.jpg?v=1659732772",
+      "title": "Sneakers Bisou Bisou",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01V36_BAJA_B_1800x1800.jpg?v=1659732772",
+      "id":"11"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0022129gaa87m",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAA87M_BAJA_A_400x.jpg?v=1661548163",
+      "title": "High Top Sneakers Limited Edition",
+      "price": "$67.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAA87M_BAJA_B_1800x1800.jpg?v=1661548162",
+      "id":"12"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0022129gab32m",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAB32M_BAJA_A_400x.jpg?v=1661548242",
+      "title": "High Top Sneakers Limited Edition",
+      "price": "$67.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAB32M_BAJA_B_1800x1800.jpg?v=1661548241",
+      "id":"13"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0022129gab38m",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAB38M_BAJA_A_400x.jpg?v=1661548289",
+      "title": "High Top Sneakers Limited Edition",
+      "price": "$67.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0022129GAB38M_BAJA_B_1800x1800.jpg?v=1661548290",
+      "id":"14"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnd29f",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND29F36_ALTA_A_400x.jpg?v=1651503545",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND29F36_ALTA_B_1800x1800.jpg?v=1651503546",
+      "id":"15"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnd51n",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND51N_BAJA_A_400x.jpg?v=1656356797",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND51N_BAJA_B_1800x1800.jpg?v=1656356797",
+      "id":"16"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526naa01g",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01G_BAJA_A_400x.jpg?v=1655391821",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01G_BAJA_B_1800x1800.jpg?v=1655391821",
+      "id":"17"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526naa011",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01136_BAJA_A_400x.jpg?v=1653583784",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01136_BAJA_B_1800x1800.jpg?v=1653583785",
+      "id":"18"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnd05z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND05Z36_ALTA_A_400x.jpg?v=1651503342",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND05Z36_ALTA_B_1800x1800.jpg?v=1651503342",
+      "id":"19"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnd02f",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND02F_BAJA_A_400x.jpg?v=1651499267",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND02F_BAJA_B_360x.jpg?v=1651499267",
+      "id":"20"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnc341",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GNC341_baja_a_400x.jpg?v=1632168387",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GNC341_baja_b_1800x1800.jpg?v=1632168387",
+      "id":"21"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gra13k",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRA13K36_BAJA_A_400x.jpg?v=1652125989",
+      "title": "Sneakers Limited Edition",
+      "price": "$65.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRA13K36_BAJA_B_1800x1800.jpg?v=1652125989",
+      "id":"22"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526gnd02j",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND02J36_BAJA_A_400x.jpg?v=1662138822",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GND02J36_BAJA_B_1800x1800.jpg?v=1662138822",
+      "id":"23"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526naa01z",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01Z_BAJA_A_400x.jpg?v=1656424845",
+      "title": "Sneakers Limited Edition",
+      "price": "$62.490",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526NAA01Z_BAJA_B_1800x1800.jpg?v=1656424845",
+      "id":"24"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grd07q",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD07Q_BAJA_A_400x.jpg?v=1653075784",
+      "title": "Sneakers Limited Edition",
+      "price": "$65.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRD07Q_BAJA_B_1800x1800.jpg?v=1653312038",
+      "id":"25"
+       
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/zapatos/products/0020526grb32f",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB32F36_BAJA_A_400x.jpg?v=1652122218",
+      "title": "Sneakers Limited Edition",
+      "price": "$65.990",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/0020526GRB32F36_BAJA_B_1800x1800.jpg?v=1652122219",
+      "id":"26"
+       
+    }
+   ],
+   "allBags":[
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mfb32n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFB32N98_BAJA_A_400x.jpg?v=1664895976",
+      "title": "Dear Backpack In Bloom",
+      "price": "$31,490",
+      "id":"1",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFB32N98_BAJA_B_1800x1800.jpg?v=1664895976"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mfc66n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFC66N98_BAJA_A_400x.jpg?v=1664896004",
+      "title": "Dear Backpack In Bloom",
+      "price": "$31,490",
+      "id":"2",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFC66N98_BAJA_B_1800x1800.jpg?v=1664896005"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mfd29n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFD29N98_BAJA_A_400x.jpg?v=1664896019",
+      "title": "Dear Backpack In Bloom",
+      "price": "$31,490",
+      "id":"3",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFD29N98_BAJA_B_1800x1800.jpg?v=1664896020"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01983mfb32n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFB32N98_BAJA_A_400x.jpg?v=1664886331",
+      "title": "Dear Travel Bag In Bloom",
+      "price": "$38,490",
+      "id":"4",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFB32N98_BAJA_B_1800x1800.jpg?v=1664886331"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mfa15n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFA15N98_BAJA_A_400x.jpg?v=1664895958",
+      "title": "Dear Backpack In Bloom",
+      "price": "$31,490",
+      "id":"5",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MFA15N98_BAJA_B_1800x1800.jpg?v=1664895957"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01983mfd29n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFD29N98_BAJA_A_400x.jpg?v=1664886374",
+      "title": "Dear Travel Bag In Bloom",
+      "price": "$38,490",
+      "id":"6",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFD29N98_BAJA_B_1800x1800.jpg?v=1664886373"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01983mfc66n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFC66N98_BAJA_A_400x.jpg?v=1665577959",
+      "title": "Dear Travel Bag In Bloom",
+      "price": "$38,490",
+      "id":"7",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFC66N98_BAJA_B_1800x1800.jpg?v=1665577959"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01983mfa15n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFA15N98_BAJA_A_400x.jpg?v=1664886297",
+      "title": "Dear Travel Bag In Bloom",
+      "price": "$38,490",
+      "id":"8",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01983MFA15N98_BAJA_B_360x.jpg?v=1664886301"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mca01199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MCA01199_BAJA_A_400x.jpg?v=1666894284",
+      "title": "Dear backpack",
+      "price": "$31,490",
+      "id":"9",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MCA01199_BAJA_B_1800x1800.jpg?v=1667312356"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mca01199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MCA01199_BAJA_A_400x.jpg?v=1666896246",
+      "title": "Dear Crossbody Bag",
+      "price": "$28,990",
+      "id":"10",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MCA01199_BAJA_B_1800x1800.jpg?v=1667312378"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02015mca01199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02015MCA01199_BAJA_A_400x.jpg?v=1666899173",
+      "title": "Dear Flat Crossbody",
+      "price": "$24,990",
+      "id":"11",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02015MCA01199_BAJA_B_1800x1800.jpg?v=1667312404"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02047mca01199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02047MCA01199_BAJA_A_1_93cbfe30-1fff-4819-860f-43592c3cc767_400x.jpg?v=1667565638",
+      "title": "Dear Tote Bag",
+      "price": "$36,990",
+      "id":"12",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02047MCA01199_BAJA_B_1800x1800.jpg?v=1667598623"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mid29o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MID29O98_BAJA_A_400x.jpg?v=1655302984",
+      "title": "Dear Crossbody Bag",
+      "price": "$24,990",
+      "id":"13",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MID29O98_BAJA_B_1800x1800.jpg?v=1655302984"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mia01o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIA01O98_BAJA_A_400x.jpg?v=1650478939",
+      "title": "Dear Crossbody Bag",
+      "price": "$24,990",
+      "id":"14",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIA01O98_BAJA_B_360x.jpg?v=1650478939"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mic34o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIC34O98_BAJA_A_400x.jpg?v=1650488668",
+      "title": "Dear Crossbody Bag",
+      "price": "$24,990",
+      "id":"15",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIC34O98_BAJA_B_1800x1800.jpg?v=1650488668"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mid29o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MID29N98_baja_a_f04cf887-cba9-4aa5-a98c-6b1c5cfaea28_400x.jpg?v=1655301580",
+      "title": "Dear backpack",
+      "price": "$26,990",
+      "id":"16",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MID29O98_BAJA_b_1800x1800.jpg?v=1663273401"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mia01o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIA01N98_baja_a_d7d9c625-7fb9-4e34-a428-2048d8fdd23d_400x.jpg?v=1650475021",
+      "title": "Dear backpack",
+      "price": "$26,990",
+      "id":"17",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIA01O98_BAJA_b_1800x1800.jpg?v=1663273346"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mic34o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIC34N98_baja_a_ccc7353f-d7f4-4fe3-8ddd-b0ffca1c7349_400x.jpg?v=1650475210",
+      "title": "Dear backpack",
+      "price": "$26,990",
+      "id":"18",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIC34N98_alta_b_2dad3486-a265-42d7-bf8f-3d8032aac683_360x.jpg?v=1650475210"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mjc12z98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MJC12Z98_BAJA_A_400x.jpg?v=1657728771",
+      "title": "Dear backpack",
+      "price": "$28,990",
+      "id":"19",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MJC12Z98_BAJA_B_1800x1800.jpg?v=1663273668"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mic03o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIC03O98_BAJA_A_400x.jpg?v=1657649141",
+      "title": "Dear backpack",
+      "price": "$26,990",
+      "id":"20",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MIC03O98_BAJA_B_360x.jpg?v=1663273440"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00723mjd55q99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MJD55Q99_BAJA_A_400x.jpg?v=1657729321",
+      "title": "Dear backpack",
+      "price": "$28,990",
+      "id":"21",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00723MJD55Q99_BAJA_B_1800x1800.jpg?v=1663273817"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mrc12z98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MRC12Z98_BAJA_A_400x.jpg?v=1655912756",
+      "title": "Dear Crossbody Bag",
+      "price": "$26,990",
+      "id":"22",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MRC12Z98_BAJA_B_1800x1800.jpg?v=1655912756"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mic03o98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIC03O98_BAJA_A_400x.jpg?v=1659100953",
+      "title": "Dear Crossbody Bag",
+      "price": "$24,990",
+      "id":"23",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MIC03O98_BAJA_B_1800x1800.jpg?v=1659100953"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00950mrd55n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MRD55N99_BAJA_A_400x.jpg?v=1655917421",
+      "title": "Dear Crossbody Bag",
+      "price": "$26,990",
+      "id":"24",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00950MRD55N99_BAJA_B_360x.jpg?v=1655917420"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02058mra01z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02058MRA01Z99_BAJA_A_400x.jpg?v=1665498372",
+      "title": "Dear Smart Backpack",
+      "price": "$39,990",
+      "id":"25",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02058MRA01Z99_BAJA_B_360x.jpg?v=1665498372"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02058mrb98j99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02058MRB98J99_BAJA_A_400x.jpg?v=1665498387",
+      "title": "Dear Smart Backpack",
+      "price": "$39,990",
+      "id":"26",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02058MRB98J99_BAJA_B_1800x1800.jpg?v=1665498388"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02049mid07n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MID07N99_BAJA_A_400x.jpg?v=1658247277",
+      "title": "Dear Flat Backpack",
+      "price": "$31,990",
+      "id":"27",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MID07N99_BAJA_B_1800x1800.jpg?v=1658247277"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02049mia01098",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MIA01098_BAJA_A_400x.jpg?v=1660223943",
+      "title": "Dear Flat Backpack",
+      "price": "$31,990",
+      "id":"28",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MIA01098_BAJA_B_1800x1800.jpg?v=1660223943"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02049mia01k99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MIA01K99_BAJA_A_400x.jpg?v=1660223734",
+      "title": "Dear Flat Backpack",
+      "price": "$31,990",
+      "id":"29",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02049MIA01K99_BAJA_B_1800x1800.jpg?v=1660223734"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00724mfb97n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724MFB97N99_BAJA_A_400x.jpg?v=1665501039",
+      "title": "Monogram In Bloom shopping bag",
+      "price": "$32,990",
+      "id":"30",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724MFB97N99_BAJA_B_360x.jpg?v=1668694823"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01975mfa01n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01975MFA01N99_BAJA_A_400x.jpg?v=1665511778",
+      "title": "Monogram In Bloom Tote Bag",
+      "price": "$38,990",
+      "id":"31",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01975MFA01N99_BAJA_B_1800x1800.jpg?v=1668694949"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02061mfb32n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02061MFB32N99_BAJA_A_400x.jpg?v=1665502888",
+      "title": "Monogram In Bloom Backpack",
+      "price": "$33,990",
+      "id":"32",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02061MFB32N99_BAJA_B_1800x1800.jpg?v=1668694903"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02118mfc32n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02118MFC32N99_BAJA_A_400x.jpg?v=1665514654",
+      "title": "Monogram In Bloom Crossbody",
+      "price": "$29,490",
+      "id":"33",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02118MFC32N99_BAJA_B_1800x1800.jpg?v=1668694988"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA01094_baja_a_400x.jpg?v=1662497329",
+      "title": "Gotham Belt bag",
+      "price": "$21,990",
+      "id":"34",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA01094_baja_b_1800x1800.jpg?v=1665156854"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA01094_BAJA_A_400x.jpg?v=1666988488",
+      "title": "Gotham Backpack",
+      "price": "$26,990",
+      "id":"35",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA01094_BAJA_B_360x.jpg?v=1666988488"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02011mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02011MPA01094_BAJA_A_400x.jpg?v=1662059510",
+      "title": "Gotham Crossbody",
+      "price": "$24,990",
+      "id":"36",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02011MPA01094_BAJA_B_1800x1800.jpg?v=1662059510"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00986mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00986MPA01094_baja_a_400x.jpg?v=1662053691",
+      "title": "Gotham Tote",
+      "price": "$37,990",
+      "id":"37",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00986MPA01094_baja_b_1800x1800.jpg?v=1662053691"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01978mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01978MPA01094_baja_A_400x.jpg?v=1662055306",
+      "title": "Gotham Messenger",
+      "price": "$33,990",
+      "id":"38",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01978MPA01094_baja_B_1800x1800.jpg?v=1662055306"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02009mpa01n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02009MPA01N94_BAJA_A_400x.jpg?v=1663091146",
+      "title": "gotham weekender",
+      "price": "$39,990",
+      "id":"39",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02009MPA01N94_BAJA_B_1800x1800.jpg?v=1663091146"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00985mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00985MPA01094_baja_a_400x.jpg?v=1662054601",
+      "title": "Gotham Midi Tote",
+      "price": "$32,990",
+      "id":"40",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00985MPA01094-baja-f_360x.jpg?v=1662054601"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02059mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02059MPA01094_BAJA_a_400x.jpg?v=1662051577",
+      "title": "Gotham Flat Tote",
+      "price": "$31,990",
+      "id":"41",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02059MPA01094_baja_b_1800x1800.jpg?v=1662051577"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp10713mpa01094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP10713MPA01094_BAJA_A_400x.jpg?v=1662750347",
+      "title": "Gotham Wallet",
+      "price": "$18,490",
+      "id":"42",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP10713MPA01094_BAJA_B_1800x1800.jpg?v=1662751495"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpa87n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA87N94_BAJA_A_400x.jpg?v=1664208184",
+      "title": "Gotham Red Belt bag",
+      "price": "$23,990",
+      "id":"43",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA87N94_BAJA_B_1800x1800.jpg?v=1664208183"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpa87n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA87N94_BAJA_A_400x.jpg?v=1664211120",
+      "title": "Gotham Red Backpack",
+      "price": "$28,990",
+      "id":"44",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA87N94_BAJA_B_1800x1800.jpg?v=1664211120"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02011mpa87n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02011MPA87N94_baja_a_453398b0-5d16-42d7-b711-66926110cd57_400x.jpg?v=1601347644",
+      "title": "Gotham Red Crossbody",
+      "price": "$26,990",
+      "id":"45",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02011MPA87N94_baja_b_360x.jpg?v=1600828484"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00985mpa87n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00985MPA87N94_BAJA_A_400x.jpg?v=1664210936",
+      "title": "Gotham Red Midi Tote",
+      "price": "$35,490",
+      "id":"46",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00985MPA87N94_BAJA_B_1800x1800.jpg?v=1664210936"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpb41f94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPB41F94_BAJA_A_400x.jpg?v=1663269638",
+      "title": "Gotham Power Color Belt bag",
+      "price": "$23,990",
+      "id":"47",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPB41F94_BAJA_B_07feb743-d70b-4435-9870-14566869d4d5_360x.jpg?v=1663269638"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpc31r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPC31R94_BAJA_A_400x.jpg?v=1663269930",
+      "title": "Gotham Power colored Belt Bag",
+      "price": "$23,990",
+      "id":"48",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPC31R94_BAJA_B_1800x1800.jpg?v=1663269930"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpb43r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPB43R94_BAJA_A_400x.jpg?v=1663269763",
+      "title": "Gotham Power colored Belt Bag",
+      "price": "$23,990",
+      "id":"49",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPB43R94_BAJA_B_1800x1800.jpg?v=1663269763"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpa87x94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA87X94_BAJA_A_400x.jpg?v=1663269543",
+      "title": "Gotham Power colored Belt Bag",
+      "price": "$23,990",
+      "id":"50",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPA87X94_BAJA_B_1800x1800.jpg?v=1663269543"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpc03k94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPC03K94_BAJA_A_400x.jpg?v=1663269811",
+      "title": "Gotham Power colored Belt Bag",
+      "price": "$23,990",
+      "id":"51",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPC03K94_BAJA_B_1800x1800.jpg?v=1663269811"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00988mpd29r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPD29R94_BAJA_A_400x.jpg?v=1663269986",
+      "title": "Gotham Power colored Belt Bag",
+      "price": "$23,990",
+      "id":"52",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00988MPD29R94_BAJA_B_1800x1800.jpg?v=1663269986"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpb41f94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA01094_baja_a_638b3ea3-9953-4aa3-bf83-6c6e43747919_400x.jpg?v=1663265582",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"53",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPB41F94_BAJA_B_360x.jpg?v=1663265582"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpc31r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPC31R94_BAJA_A_400x.jpg?v=1662063271",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"54",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPC31R94_BAJA_B_1800x1800.jpg?v=1662063271"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpb43r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPB43R94_BAJA_A_400x.jpg?v=1662063306",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"55",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPB43R94_BAJA_B_1800x1800.jpg?v=1662063306"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpa87x94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA87X94_BAJA_A_400x.jpg?v=1662063334",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"56",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPA87X94_BAJA_B_360x.jpg?v=1662063334"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpc03k94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPC03K94_BAJA_A_400x.jpg?v=1662063374",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"57",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPC03K94_BAJA_B_1800x1800.jpg?v=1662063374"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00987mpd29r94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPD29R94_BAJA_A_400x.jpg?v=1662063401",
+      "title": "Gotham Power Color Backpack",
+      "price": "$28,990",
+      "id":"58",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00987MPD29R94_BAJA_B_1800x1800.jpg?v=1662063401"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cub39099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUB39099_BAJA_A_400x.jpg?v=1666961262",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"59",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUB39099_BAJA_F_1800x1800.jpg?v=1668096063"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cuc31099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC31099_BAJA_A_400x.jpg?v=1668085199",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"60",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC31099_BAJA_E_1800x1800.jpg?v=1668096074"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cud25099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUD25099_BAJA_A_400x.jpg?v=1668004892",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"61",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUD25099_BAJA_F_1800x1800.jpg?v=1668096087"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cuc99099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC99099_BAJA_A_400x.jpg?v=1668084903",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"62",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC99099_BAJA_F_1800x1800.jpg?v=1668096102"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cud37n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUD37N99_BAJA_A_400x.jpg?v=1668004868",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"63",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUD37N99_BAJA_E_1800x1800.jpg?v=1668096112"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cuc32099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC32099_BAJA_A_400x.jpg?v=1666961328",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"64",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC32099_BAJA_E_1800x1800.jpg?v=1668096123"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cuc34099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC34099_BAJA_A_400x.jpg?v=1666961361",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"65",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC34099_BAJA_E_1800x1800.jpg?v=1668096133"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cuc66099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC66099_BAJA_A_400x.jpg?v=1666961387",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"66",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUC66099_BAJA_F_1800x1800.jpg?v=1668096146"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02096cua01n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUA01N99_BAJA_A_400x.jpg?v=1666961232",
+      "title": "Wendy",
+      "price": "$32,990",
+      "id":"67",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02096CUA01N99_BAJA_E_1800x1800.jpg?v=1668096155"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00344aga87z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGA87Z99_BAJA_A_400x.jpg?v=1662756842",
+      "title": "Fiji",
+      "price": "$19,490",
+      "id":"68",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGA87Z99_BAJA_B_1800x1800.jpg?v=1669232668"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00344agb01z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB01Z99_BAJA_A_400x.jpg?v=1662739848",
+      "title": "Fiji",
+      "price": "$19,490",
+      "id":"69",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB01Z99_BAJA_B_1800x1800.jpg?v=1669232638"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00344agb32z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB32Z99_BAJA_A_400x.jpg?v=1648864096",
+      "title": "Fiji",
+      "price": "$19,490",
+      "id":"70",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB32Z99_BAJA_B_1800x1800.jpg?v=1669232718"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02021npc03n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP022021NPC03N98_BAJA_A_400x.jpg?v=1653054553",
+      "title": "Jane Shoulder Bag",
+      "price": "$35,490",
+      "id":"71",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP022021NPC03N98_BAJA_B_1800x1800.jpg?v=1653054553"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00344agb41z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB41Z99_BAJA_A_400x.jpg?v=1648864047",
+      "title": "Fiji",
+      "price": "$19,490",
+      "id":"72",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00344AGB41Z99_BAJA_B_1800x1800.jpg?v=1669232753"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02021mpa01u99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021MPA01U99_baja_a_400x.jpg?v=1630173693",
+      "title": "Jane Shoulder Bag",
+      "price": "$35,490",
+      "id":"73",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021MPA01U99_baja_b_1800x1800.jpg?v=1630173693"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02021npd29n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021NPD29N98_BAJA_A_400x.jpg?v=1652819895",
+      "title": "Jane Shoulder Bag",
+      "price": "$35,490",
+      "id":"74",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021NPD29N98_BAJA_B_1800x1800.jpg?v=1652819895"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02021mpc99099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021MPC99099_BAJA_A_400x.jpg?v=1663100169",
+      "title": "Jane Shoulder Bag",
+      "price": "$35,490",
+      "id":"75",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02021MPC99099_BAJA_B_1800x1800.jpg?v=1663100170"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02022mpa13n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPA13N99_BAJA_A_400x.jpg?v=1665089904",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"76",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPA13N99_BAJA_B_0ff6522a-2976-4c7d-b666-24d7bfbbbade_1800x1800.jpg?v=1665089904"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02022mpc66n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPC66N99_BAJA_A_400x.jpg?v=1663090500",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"77",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPC66N99_BAJA_B_1800x1800.jpg?v=1663090500"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02022mpd24n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPD24N99_BAJA_A_400x.jpg?v=1663090567",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"78",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02022MPD24N99_BAJA_B_1800x1800.jpg?v=1663090567"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02082npd29n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082NPD29N98_BAJA_A_400x.jpg?v=1663090810",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"79",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082NPD29N98_BAJA_B_1800x1800.jpg?v=1663090810"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02082mpa01n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082MPA01N99_BAJA_A_400x.jpg?v=1663090699",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"80",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082MPA01N99_BAJA_B_1800x1800.jpg?v=1663090699"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02082mpc99n99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082MPC99N99_BAJA_a_400x.jpg?v=1639487068",
+      "title": "Jane Belt Bag",
+      "price": "$25,990",
+      "id":"81",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02082MPC99N99_BAJA_b_1800x1800.jpg?v=1639487068"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01035pga15199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGA15199_BAJA_A_400x.jpg?v=1663866230",
+      "title": "Moony",
+      "price": "$49,490",
+      "id":"82",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGA15199_BAJA_B_1800x1800.jpg?v=1663866231"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01035pga01199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGA01199_BAJA_A_400x.jpg?v=1663860845",
+      "title": "Moony",
+      "price": "$49,490",
+      "id":"83",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGA01199_BAJA_B_1800x1800.jpg?v=1663860845"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01035pgd37199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGD37199_BAJA_A_400x.jpg?v=1663869131",
+      "title": "Moony",
+      "price": "$49,490",
+      "id":"84",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01035PGD37199_BAJA_B_1800x1800.jpg?v=1663869131"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01038pyd02n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYD02N94_BAJA_A_b0ed12d9-1cdc-44cb-aff1-50bb4d3d2b9e_400x.jpg?v=1667330535",
+      "title": "Supernova",
+      "price": "$42,990",
+      "id":"85",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYD02N94_BAJA_B_1800x1800.jpg?v=1667330535"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01038pya01194",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYA01194_BAJA_A_400x.jpg?v=1663943269",
+      "title": "Supernova",
+      "price": "$42,990",
+      "id":"86",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYA01194_BAJA_B_1800x1800.jpg?v=1663943269"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp01038pya30n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYA30N94_BAJA_A_1_400x.jpg?v=1667330478",
+      "title": "Supernova",
+      "price": "$42,990",
+      "id":"87",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP01038PYA30N94_BAJA_B_1800x1800.jpg?v=1667330478"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00724npc03094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724NPC03094_BAJA_A_400x.jpg?v=1646402458",
+      "title": "Net Tote Bag",
+      "price": "$28,490",
+      "id":"88",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724NPC03094_BAJA_B_360x.jpg?v=1646402458"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00724npd29094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724NPD29094_BAJA_A_400x.jpg?v=1665519982",
+      "title": "Net Tote Bag",
+      "price": "$28,490",
+      "id":"89",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00724NPD29094_BAJA_B_1800x1800.jpg?v=1665519982"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02001pgc03n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGC03N98_BAJA_A_24d51b47-956d-4721-9046-dc5448f9856c_400x.jpg?v=1663361210",
+      "title": "lina",
+      "price": "$57,490",
+      "id":"91",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGC03N98_BAJA_B_1800x1800.jpg?v=1666354653"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02001pgc34n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGC34N98_BAJA_A_400x.jpg?v=1666269863",
+      "title": "lina",
+      "price": "$57,490",
+      "id":"92",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGC34N98_BAJA_B_360x.jpg?v=1666354692"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02001pga01n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGA01N98_BAJA_A_400x.jpg?v=1663361082",
+      "title": "lina",
+      "price": "$57,490",
+      "id":"93",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02001PGA01N98_BAJA_B_1800x1800.jpg?v=1666354615"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00731pgc03n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGC03N98_BAJA_A_400x.jpg?v=1666269808",
+      "title": "Claire",
+      "price": "$46,990",
+      "id":"94",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGC03N98_BAJA_B_1800x1800.jpg?v=1666354770"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00731pgc34n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGC34N98_BAJA_A_400x.jpg?v=1666269838",
+      "title": "Claire",
+      "price": "$46,990",
+      "id":"95",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGC34N98_BAJA_B_1800x1800.jpg?v=1666354824"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00731pga01n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGA01N98_BAJA_A_400x.jpg?v=1666274380",
+      "title": "Claire",
+      "price": "$46,990",
+      "id":"96",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00731PGA01N98_BAJA_B_1800x1800.jpg?v=1666354745"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02124mpc03n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPC03N94_BAJA_A_400x.jpg?v=1658846439",
+      "title": "Thelma Backpack",
+      "price": "$33,490",
+      "id":"97",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPC03N94_BAJA_B_1800x1800.jpg?v=1658846439"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02124mpc34n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPC34N94_BAJA_A_400x.jpg?v=1658843615",
+      "title": "Thelma Backpack",
+      "price": "$33,490",
+      "id":"98",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPC34N94_BAJA_B_1800x1800.jpg?v=1658843615"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02124mpa01n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPA01N94_BAJA_A_400x.jpg?v=1658845982",
+      "title": "Thelma Backpack",
+      "price": "$33,490",
+      "id":"99",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02124MPA01N94_BAJA_B_1800x1800.jpg?v=1658845981"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02125mpc03n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPC03N94_BAJA_A_400x.jpg?v=1659020408",
+      "title": "Thelma",
+      "price": "$34,490",
+      "id":"100",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPC03CN94_BAJA_B_1800x1800.jpg?v=1659020408"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02125mpc34n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPC34N94_BAJA_A_400x.jpg?v=1659020794",
+      "title": "Thelma",
+      "price": "$34,490",
+      "id":"101",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPC34N94_BAJA_B_1800x1800.jpg?v=1659020794"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp02125mpa01n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPA01N94_BAJA_A_400x.jpg?v=1659020920",
+      "title": "Thelma",
+      "price": "$34,490",
+      "id":"102",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP02125MPA01N94_BAJA_B_1800x1800.jpg?v=1659020920"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00130mpa01z94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00130MPA01Z94_BAJA_A_400x.jpg?v=1657287706",
+      "title": "#130",
+      "price": "$61,990",
+      "id":"103",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00130MPA01Z94_BAJAS_B_1800x1800.jpg?v=1657287706"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00130mpd02n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00130MPA01N94_BAJA_A_edca4290-55cd-4f55-9521-25be92d56533_400x.jpg?v=1668444058",
+      "title": "#130",
+      "price": "$61,990",
+      "id":"104",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00130MPA01N94_BAJAS_B_2afb12a0-c8e7-40a6-9a11-cf463cf284d0_360x.jpg?v=1668444063"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00114ppd29n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114PPD29N94_BAJA_A_400x.jpg?v=1649338191",
+      "title": "Bellini",
+      "price": "$61,990",
+      "id":"105",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114PPD29N94_BAJA_B_1800x1800.jpg?v=1649338191"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00114mpa01194",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114MPA01194_ALTA_Acopia_400x.jpg?v=1650645265",
+      "title": "Bellini",
+      "price": "$61,990",
+      "id":"106",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114MPA01194_BAJA_B_1800x1800.jpg?v=1650645265"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/cp00114ppc03n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114PPC03N94_BAJA_A_400x.jpg?v=1649338159",
+      "title": "Bellini",
+      "price": "$61,990",
+      "id":"107",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/CP00114PPC03N94_BAJA_B_1800x1800.jpg?v=1649338159"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558grb41z98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRB41Z98_BAJA_A_400x.jpg?v=1666299119",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"108",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRB41Z98_BAJA_B_1800x1800.jpg?v=1666299118"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558gra90n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRA90N98_BAJA_A_400x.jpg?v=1666299098",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"109",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRA90N98_BAJA_B_1800x1800.jpg?v=1666299099"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558gra01j98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRA01J98_BAJA_A_400x.jpg?v=1666291370",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"110",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRA01J98_BAJA_B_1800x1800.jpg?v=1666291370"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558grc31198",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRC31198_BAJA_A_400x.jpg?v=1664472956",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"111",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRC31198_BAJA_B_1800x1800.jpg?v=1664911681"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558grd37199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRD37199_BAJA_A_400x.jpg?v=1664473017",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"112",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRD37199_BAJA_B_1800x1800.jpg?v=1664911645"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/ld00558grd07199",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRD07199_BAJA_A_400x.jpg?v=1663961776",
+      "title": "Mini Flora Limited Edition",
+      "price": "$94,490",
+      "id":"113",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/LD00558GRD07199_BAJA_B_1800x1800.jpg?v=1664911612"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02031gnc34w98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GNC34W98_baja_a_a26e5879-0141-4037-8465-050349d33205_400x.jpg?v=1666125990",
+      "title": "Little Flora",
+      "price": "$78,990",
+      "id":"114",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GNC34W98_baja_b_1800x1800.jpg?v=1666125990"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02031gnc03y98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GNC03Y98_BAJA_A_400x.jpg?v=1656428644",
+      "title": "Little Flora",
+      "price": "$78,990",
+      "id":"115",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GNC03Y98_BAJA_B_375b8c2f-0fc2-4a14-b7a0-4a6b2fc27b3f_1800x1800.jpg?v=1663945573"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02031gnd29x99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GND29X99_BAJA_A_400x.jpg?v=1655408218",
+      "title": "Little Flora",
+      "price": "$78,990",
+      "id":"116",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02031GND29X99_BAJA_B_1800x1800.jpg?v=1655408218"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf00636gna87099",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GNA87099_BAJA_A_400x.jpg?v=1655238782",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"117",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GNA87099_BAJA_B_1800x1800.jpg?v=1655238781"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf00636gnd51098",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GND51098_BAJA_A_400x.jpg?v=1662488153",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"118",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GND51098_BAJA_B_1800x1800.jpg?v=1662488153"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf00636gna01098",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GNA01098_BAJA_A_400x.jpg?v=1662488107",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"119",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF00636GNA01098_BAJA_B_360x.jpg?v=1662488107"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02002gna01n98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNA01N98_BAJA_A_400x.jpg?v=1664290334",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"120",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNA01N98_BAJA_B_360x.jpg?v=1664290334"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02002gnc03i98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNC03I98_BAJA_A_400x.jpg?v=1657308211",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"121",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNC03I98_baja_b_1800x1800.jpg?v=1657308211"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/gf02002gna01s98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNA01S98_BAJA_A_400x.jpg?v=1659707496",
+      "title": "Flora",
+      "price": "$83,490",
+      "id":"122",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/GF02002GNA01S98_BAJA_B_1800x1800.jpg?v=1659707496"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chd02y99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02Y99_BAJA_A_400x.jpg?v=1664553576",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"123",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02Y99_BAJA_B_1800x1800.jpg?v=1665091722"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chd02t99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02T99_BAJA_A_400x.jpg?v=1664553539",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"124",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02T99_BAJA_B_1800x1800.jpg?v=1665092155"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chd02v99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02V99_BAJA_A_400x.jpg?v=1664553560",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"125",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02V99_BAJA_B_1800x1800.jpg?v=1665092572"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chd02w99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02W99_BAJA_A_400x.jpg?v=1665084886",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"126",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02W99_BAJA_B_1800x1800.jpg?v=1665092621"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chc17z98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHC17Z98_BAJA_A_d49d92fe-dd2e-4dbc-9ef9-67fcf5d12a4f_400x.jpg?v=1665779849",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"127",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHC17Z98_BAJA_B_1800x1800.jpg?v=1665779849"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325cha01z99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHA01Z99_BAJA_A_400x.jpg?v=1665779799",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"128",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHA01Z99_BAJA_B_1800x1800.jpg?v=1665779799"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065coa01n94",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COA01N94A_BAJA_A_400x.jpg?v=1660677427",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"129",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COA01N94A_BAJA_B_1800x1800.jpg?v=1660677426"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065cob97094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COB97094_baja_a_400x.jpg?v=1627930104",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"130",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COB97094_baja_b_1800x1800.jpg?v=1627930103"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065coc03094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COC03094_baja_a_400x.jpg?v=1629389864",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"131",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COC03094_baja_b_1800x1800.jpg?v=1629389864"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065cod29094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COD29094_baja_a_400x.jpg?v=1629470901",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"132",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COD29094_baja_b_1800x1800.jpg?v=1629470901"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065cod07094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COD07094_baja_a_2ce1e4b1-9fd5-4a4d-970e-04675bfef40b_400x.jpg?v=1629470958",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"133",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COD07094_baja_b_6812b548-4c79-4c71-817e-e262d2276a30_360x.jpg?v=1629470958"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/mo02065coc66094",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COC66094_baja_a_400x.jpg?v=1629471020",
+      "title": "Mr Smith Backpack",
+      "price": "$29,990",
+      "id":"134",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/MO02065COC66094_baja_b_1800x1800.jpg?v=1629471019"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chd02w99",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02W99_BAJA_A_400x.jpg?v=1665084886",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"135",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHD02W99_BAJA_B_1800x1800.jpg?v=1665092621"
+    },
+    {
+      "link href": "https://jackiesmith.com.ar/collections/handbags-2/products/2w00325chc17z98",
+      "image_1": "https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHC17Z98_BAJA_A_d49d92fe-dd2e-4dbc-9ef9-67fcf5d12a4f_400x.jpg?v=1665779849",
+      "title": "Mini Miranda Limited Edition",
+      "price": "$97,490",
+      "id":"136",
+      "image_2":"https://cdn.shopify.com/s/files/1/0208/1956/products/2W00325CHC17Z98_BAJA_B_1800x1800.jpg?v=1665779849"
+    }
+   ]
 }
