@@ -8,7 +8,7 @@ export default function Bags() {
     const [state,setState] = React.useState([]);
     const [filter,setFilter]=React.useState(false);
     const fetchingAllBags=()=>{
-        fetch(`http://localhost:3001/allBags`).then((res)=>{
+        fetch(`https://jackiesmithserver.onrender.com/allBags`).then((res)=>{
             return res.json();
         }).then((res)=>{
              setState(res)
