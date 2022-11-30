@@ -1,5 +1,6 @@
 import React from "react";
 import Login from "./Login";
+import Create from "./create";
 
 function Main(){
     return(
@@ -15,7 +16,7 @@ function Main(){
         <div style={{
             // border:"2px solid black",
             display:"grid",
-            gridTemplateColumns:"repeat(2,1fr)",
+            gridTemplateColumns:"repeat(3,auto)",
             margin:"0 0 0 -22px"
         }}>
             <div style={{
@@ -27,6 +28,9 @@ function Main(){
                 boxSizing:"border-box",
                 float:"left"
             }}><Login /></div>
+            <span style={{
+                borderLeft:"1px solid #d6d6d6"
+            }}></span>
             <div style={{
                 // border:"2px solid black",
                 position:"relative",
@@ -36,7 +40,7 @@ function Main(){
                 boxSizing:"border-box",
                 float:"right"
             }}
-            ></div>
+            ><Create /></div>
         </div>
         </div>
     )

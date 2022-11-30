@@ -50,7 +50,8 @@ function Login(){
                     marginBottom:"5px",
                     boxSizing:"border-box",
                     color:"#000",
-                    textAlign:"left"
+                    textAlign:"left",
+                    marginLeft:"50px"
                 }}
                 >EMAIL</label>
                 <input type="email" style={{
@@ -64,7 +65,8 @@ function Login(){
                     padding:"8px 10px",
                     lineHeight:"1.5",
                     fontFamily:"Poppins,sans-serif",
-                    letterSpacing:".025em"
+                    letterSpacing:".025em",
+                    marginLeft:"50px"
                 }}></input>
                 <div style={{
                     margin:"0 0 0 -22px",
@@ -75,7 +77,8 @@ function Login(){
                         width:"50%",
                         float:"left",
                         paddingLeft:"22px",
-                        minHeight:"1px"
+                        minHeight:"1px",
+                        marginLeft:"50px"
                     }}>
                         <label style={{
                             textAlign:"left",
@@ -88,7 +91,7 @@ function Login(){
                         >PASSWORD</label>
                     </div>
                     <div style={{
-                        marginLeft:"100px",
+                        marginLeft:"60px",
                         width:"50%",
                         textAlign:"right",
                         float:"right",
@@ -118,7 +121,8 @@ function Login(){
                     padding:"8px 10px",
                     lineHeight:"1.5",
                     fontFamily:"Poppins,sans-serif",
-                    letterSpacing:".025em"
+                    letterSpacing:".025em",
+                    marginLeft:"50px"
                 }}
                 ></input>
                 <button style={{
