@@ -15,7 +15,28 @@ function Navbar() {
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
   const [cart,setCart]=useState(false);
-  const [cartlen,setCartlen]=useState([]);
+  const [cartlen,setCartlen]=useState([{
+    "id": 1,
+    "title": "GOTHAM POWER COLOR BELT BAG",
+    "price": "$140",
+    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_A_1800x1800.jpg?v=1663269548",
+    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_B_1800x1800.jpg?v=1663269548"
+  },
+  {
+    "id": 2,
+    "title": "GOTHAM ",
+    "price": "$140",
+    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_A_1800x1800.jpg?v=1663269816",
+    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_B_1800x1800.jpg?v=1663269816"
+  },
+  {
+    "id": 3,
+    "title": "GOTHAM POWER",
+    "price": "$140",
+    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_A_1800x1800.jpg?v=1663269990",
+    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_B_1800x1800.jpg?v=1663269990"
+  }]);
+  const [num,setNum]=useState(1)
   return (
     <div>
 <div className='navbar'>
@@ -59,7 +80,20 @@ function Navbar() {
           <hr></hr>
         </div>
         <div className='cart_footer'>
-          {cartlen.length>0? "Your cart is currently working.":"Your cart is currently empty."}
+          {cartlen.length>0? <div><div className='prodiv'>
+            {cartlen.map((ele,ind)=>{
+              
+              return <div className='prod'  key={ind+1}>
+                <div><img src={ele.image_1} width={'50px'} height={"50px"} /></div>
+                <div>
+                <div>{ele.title}</div>
+                <div> <button onClick={()=>{setNum(num-1)}}>-</button>{num}<button onClick={()=>{setNum(num+1)}}>+</button></div>
+                </div>
+              </div>
+            
+            })}
+          </div>
+          <div className='checkout'><Link to={"/checkout"}><button className='btn'>CHECKOUT</button></Link></div></div>:"Your cart is currently empty."}
         </div>
         </div>:""}{/* cart end */}
     
