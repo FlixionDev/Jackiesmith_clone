@@ -5,7 +5,7 @@ import Main from './Components/Login&signup/Main';
 import Clothing from './Components/Clothing/Clothing';
 import Sneaker from './Components/Sneaker/Sneaker';
 import Bags from './Components/Bags/Bags';
-import ProductDescription from './Components/ProductDescription/ProductDescription';
+// import ProductDescription from './Components/ProductDescription/ProductDescription';
 function App() {
   return (
     <div className="App">
@@ -13,8 +13,8 @@ function App() {
       {/* <Clothing /> */}
       {/* <Main /> */}
       {/* <Sneaker /> */}
-      {/* <Bags /> */}
-      <ProductDescription />
+      <Bags />
+      {/* <ProductDescription /> */}
     </div>
   );
 }
