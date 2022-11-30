@@ -6,6 +6,7 @@ export default function Bags() {
         fetchingAllBags();    
     },[])
     const [state,setState] = React.useState([]);
+    const [filter,setFilter]=React.useState(false);
     const fetchingAllBags=()=>{
         fetch(`http://localhost:3001/allBags`).then((res)=>{
             return res.json();
@@ -13,9 +14,16 @@ export default function Bags() {
              setState(res)
         })
     }
+    const showfilter=()=>{
+        setFilter(!filter)
+    }
+    
   return (
     <div>
-        <div id='Container'>
+        <div style={{width:'10%'}}>
+            <button onClick={showfilter}>Filter</button>
+        </div>
+        <div id='Containers'>
             {state.map((el,index)=>{
                    return <Displayproduct key={index+1} {...el} /> 
             })}
