@@ -1,8 +1,4 @@
 import React from "react";
-import Login from "./Login";
-import Create from "./create";
-import CreateInput from "./createinput";
-import Password from "./password";
 import "./Main.css";
 import "./create.css";
 import "./createinput.css";
