@@ -17,6 +17,7 @@ function App() {
       {/* <Origin /> */}
       {/* <Main /> */}
       {/* <Profile /> */}
+      <Main />
     </div>
   );
 }
