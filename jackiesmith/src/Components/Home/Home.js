@@ -21,6 +21,9 @@ import insta3 from '../Images/insta3.jpg'
 import insta4 from '../Images/insta4.jpg'
 import insta5 from '../Images/insta5.jpg'
 import insta6 from '../Images/insta6.jpg'
+import Navbar from "../navbar/Navbar"
+
+
 
 export default function Home() {
     useEffect(()=>{
@@ -53,6 +56,7 @@ export default function Home() {
 
   return (
     <div>
+        <Navbar/>
         <img className='Singlebanner' src={gotham}/>
         <div id='Container'>
             {state.map((el,index)=>{

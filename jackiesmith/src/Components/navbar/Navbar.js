@@ -56,7 +56,7 @@ function Navbar() {
             <Link><i className="fa-light fa-heart"></i></Link>
             <Link><div onClick={()=>{
                 setCart(true);
-            }}><i className="fa-light fa-bag-shopping"></i></div></Link>
+            }}><Icon as={SearchIcon} /></div></Link>
           </div>
         </div>
       </div>
