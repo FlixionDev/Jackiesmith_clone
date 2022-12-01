@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import gotham from '../Images/Gotham.jpg'
-import './Home.css'
+import Style from './Home.module.css'
 import Displayproduct from '../Displayproduct/Displayproduct'
 import secondbanner from '../Images/E_305.webp'
 import thirdbanner from '../Images/E_305x.webp'
@@ -34,7 +34,7 @@ export default function Home() {
     const [state,setState] = React.useState([]);
     const [wcloth,setWcloth] = React.useState([]);
     const fetchingdata=()=>{
-        fetch(`http://localhost:3001/bags`).then((res)=>{
+        fetch(`https://jackiesmithserver.onrender.com/bags`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setState(res)
@@ -56,9 +56,9 @@ export default function Home() {
 
   return (
     <div>
-        <Navbar/>
-        <img className='Singlebanner' src={gotham}/>
-        <div id='Container'>
+        {/* <Navbar/> */}
+        <img className={Style.Singlebanner} src={gotham}/>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index<3){
                    return <Displayproduct key={index+1} {...el} />
@@ -69,15 +69,15 @@ export default function Home() {
             <img style={{width:"50%"}} src={secondbanner}/>
             <img style={{width:"50%"}} src={thirdbanner}/>
         </div>
-        <div id='Container'>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=3 && index<=5){
                    return <Displayproduct key={index+1} {...el} />
                 }   
             })}
         </div>
-        <img className='Singlebanner' src={fourthbanner}/>
-        <div id='Container'>
+        <img className={Style.Singlebanner} src={fourthbanner}/>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=6 && index<=8){
                    return <Displayproduct key={index+1} {...el} />
@@ -88,27 +88,27 @@ export default function Home() {
             <img style={{width:"100%"}} src={fifthbanner}/>
             <img style={{width:"100%"}} src={sixthbanner}/>
         </div>
-        <div id='Container'>
+        <div className={Style.Containerhome}>
             {wcloth.map((el,index)=>{
                 if(index<3){
                    return <Displayproduct key={index+1} {...el} />
                 }   
             })}
         </div>
-        <img className='Singlebanner' src={seventhbanner}/>
+        <img className={Style.Singlebanner} src={seventhbanner}/>
         <div style={{display:"flex",width:"90%",gap:"50px",height:"797px",margin:"auto",marginTop:"100px"}}>
             <img style={{width:"50%"}} src={eightbanner}/>
             <img style={{width:"50%"}} src={ninthbanner}/>
         </div>
-        <div id='Container'>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=9 && index<=11){
                    return <Displayproduct key={index+1} {...el} />
                 }   
             })}
         </div>
-        <img className='Singlebanner' src={tenthbanner}/>
-        <div id='Container'>
+        <img className={Style.Singlebanner} src={tenthbanner}/>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=12 && index<=14){
                    return <Displayproduct key={index+1} {...el} />
@@ -119,38 +119,38 @@ export default function Home() {
             <img style={{width:"100%"}} src={elevenbanner}/>
             <img style={{width:"100%"}} src={twelvebanner}/>
         </div>
-        <div id='Container'>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=15 && index<=17){
                    return <Displayproduct key={index+1} {...el} />
                 }   
             })}
         </div>
-        <img className='Singlebanner' src={thirteenbanner}/>
-        <p>Our Picks For You</p>
-        <div id='Container'>
+        <img className={Style.Singlebanner} src={thirteenbanner}/>
+        <p style={{textAlign:"center",marginTop:"20px"}}>Our Picks For You</p>
+        <div className={Style.Containerhome}>
             {state.map((el,index)=>{
                 if(index>=18 && index<=20){
                    return <Displayproduct key={index+1} {...el} />
                 }   
             })}
         </div>
-        <div id='miniNavbaratbottom'>
+        <div className={Style.miniNavbaratbottom}>
             <a href='https://www.instagram.com/jackiesmithba/'>@jackiesmithba</a>
             <a href='https://www.instagram.com/jackiesmithba/'>Share yours! #MyJackie</a>
         </div>
-        <div id='instaphotoAtBottom'>
+        <div className={Style.instaphotoAtBottom}>
             {
                 instagramImage.map((el,index)=>{
                     if(index<3){
                         return <img style={{width:"100%"}} src={el}/>
                     }else{
-                        return <img style={{width:"100%",height:"290px",marginTop:"30px"}} src={el}/>
+                        return <img style={{width:"100%",marginTop:"30px"}} src={el}/>
                     }
                 })
             }
         </div>
-        <img className='Singlebanner' src={forteenbanner}/>
+        <img className={Style.Singlebanner} src={forteenbanner}/>
     </div>
   )
 }
