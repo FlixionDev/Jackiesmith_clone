@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./Login";
 import Create from "./create";
+import CreateInput from "./createinput";
 
 function Main(){
     return(
@@ -40,7 +41,7 @@ function Main(){
                 boxSizing:"border-box",
                 float:"right"
             }}
-            ><Create /></div>
+            ><CreateInput /></div>
         </div>
         </div>
     )
