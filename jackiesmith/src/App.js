@@ -6,16 +6,24 @@ import Clothing from './Components/Clothing/Clothing';
 import Sneaker from './Components/Sneaker/Sneaker';
 import Bags from './Components/Bags/Bags';
 import ProductDescription from './Components/ProductDescription/ProductDescription';
+import { Route, Routes } from 'react-router-dom';
+
+
+
+
 function App() {
   return (
-    <div className="App">
-      {/* <Home /> */}
-      {/* <Clothing /> */}
-      {/* <Main /> */}
-      {/* <Sneaker /> */}
-      <Bags />
-      {/* <ProductDescription /> */}
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    </Routes>
+    // <div className="App">
+    //   {/* <Home /> */}
+    //   {/* <Clothing /> */}
+    //   {/* <Main /> */}
+    //   {/* <Sneaker /> */}
+    //   <Bags />
+    //   {/* <ProductDescription /> */}
+    // </div>
   );
 }
 
