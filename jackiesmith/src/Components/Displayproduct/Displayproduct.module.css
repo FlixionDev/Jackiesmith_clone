@@ -1,23 +1,27 @@
-#SingleProduct{
+.SingleProduct{
     margin-bottom: 20px;
     cursor: pointer;
+   
 }
-#SingleProduct > img{
-    width: 80%;
+.SingleProduct > img{
+    width: 100%;
     height: 500px;
     
 }
-#SingleProduct > p{
-    width: 100%;
+.SingleProduct > p{
+    text-align: center;
     padding: 0;
-    margin: 0%;
+    margin: auto;
+    /* margin: 0%; */
     color: #000000;
     font-size: 12px;
+    
 }
-#SingleProduct button{
+.SingleProduct button{
     background-color: white;
     border: 0;
     font-size: 12px;
     margin-top: 0;
-    
+    margin: auto;
+    width: 100%;
 }

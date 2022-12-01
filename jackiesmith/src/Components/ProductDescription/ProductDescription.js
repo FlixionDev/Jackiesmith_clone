@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import './ProductDescription.css'
+import Style from './ProductDescription.module.css'
 import giftbox from '../Images/giftbox.jpeg'
 import card from '../Images/card.png';
 import ret from '../Images/return.png';
@@ -22,9 +22,9 @@ export default function ProductDescription() {
   const [image1, setImg1] = React.useState(true);
   const [image2, setImg2] = React.useState(false);
   return (
-    <div id='Container'>
-      <div className='imageContainer'>
-        <div className='imagebox'>
+    <div className={Style.Container}>
+      <div className={Style.imageContainer}>
+        <div className={Style.imagebox}>
           <img style={image1 ? { "border": "2px solid black" } : null} onClick={() => {
             setImg1(true);
             setImg2(false)
@@ -39,10 +39,10 @@ export default function ProductDescription() {
           {image2 ? <img src={state.image_2} /> : null};
         </div>
       </div>
-      <div id='productDetailsTopRIght'>
+      <div className={Style.productDetailsTopRIght}>
         <h1 style={{ "fontSize": "1.57667em" }}>{state.title}</h1>
-        <h2 style={{ "fontSize": "14px", "fontWeight": "bold", "marginTop": "10px" }}>{state.price}</h2>
-        <p style={{ "marginTop": "10px", 'marginBottom': "10px" }}>3 interest-free installments of $10,497 with Visa, Master and Amex cards.</p>
+        <h2 style={{ "fontSize": "14px", "fontWeight": "bold", "marginTop": "10px" }}>$ {state.price}</h2>
+        <p style={{ "marginTop": "10px", 'marginBottom': "10px" }}> 3 interest-free installments of $10,497 with Visa, Master and Amex cards.</p>
         <hr />
         <h3 style={{ "fontSize": "15px", "fontWeight": "bold", marginTop: "10px" }}>You have 1 day , 11 hours and 22 minutes left to place your order and receive it at home no later than December 12! QUANTITY</h3>
         <p style={{ "fontSize": ".75em", "fontWeight": "400", marginTop: "10px", 'marginBottom': "10px" }}>QUANTITY</p>
@@ -66,7 +66,7 @@ export default function ProductDescription() {
           </div>
         </div>
         <hr />
-        <div className='detailsofshipdiv'>
+        <div className={Style.detailsofshipdiv}>
           <div style={{ "border": "0.1px solid gray", "width": "150px" }}>
             <div><img style={{ backgroundColor: "white", "width": "100px", "height": "100px", margin: "auto" }} src={ship} /></div>
             <div><p>FREE SHIPPING TO THE WHOLE COUNTRY!</p></div>
@@ -85,7 +85,7 @@ export default function ProductDescription() {
             <div><p>3 INSTALLMENTS WITHOUT INTEREST!</p></div>
           </div>
         </div>
-        <div id='Aboutproduct'>
+        <div className={Style.Aboutproduct}>
           <Accordion defaultIndex={[0]} allowMultiple>
             <AccordionItem>
               <h2>

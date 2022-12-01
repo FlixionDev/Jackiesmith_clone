@@ -1,5 +1,5 @@
 import React from 'react'
-import './Displayproduct.css'
+import Style from './Displayproduct.module.css'
 import { Navigate, Link } from 'react-router-dom'
 export default function Displayproduct({ id, title, price, image_1, image_2 }) {
   //console.log(props)
@@ -28,11 +28,11 @@ export default function Displayproduct({ id, title, price, image_1, image_2 }) {
   }
   return (
     <div>
-      <Link to='productdescription'>
-        <div id='SingleProduct' onClick={productdescription} >
+      <Link to='/productdescription'>
+        <div className={Style.SingleProduct} onClick={productdescription} >
           <img onMouseOver={e => (e.currentTarget.src = image_2)} onMouseOut={e => (e.currentTarget.src = image_1)} src={image_1} />
           <p>{title}</p>
-          <p>{price}</p>
+          <p>$ {price}</p>
           <button onClick={() => { storetoLocal(id, title, price, image_1, image_2) }}>&#9825;</button>
         </div></Link>
     </div>

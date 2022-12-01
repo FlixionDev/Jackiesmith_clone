@@ -1,22 +1,25 @@
-#Container{
+.Container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: start;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
 }
 .imageContainer{
     display: grid;
     grid-template-columns: 20% 80%;
 }
 .imageContainer img{
-    width: 100%;
+    width: 90%;
 }
 .imagebox{
     margin-top: 100px;
 }
-#productDetailsTopRIght{
+.productDetailsTopRIght{
     margin-top: 80px;
 }
-#Aboutproduct{
+.Aboutproduct{
     margin-top: 20px;
 }
 .detailsofshipdiv{

@@ -1,22 +1,24 @@
-#Container{
+.Containerhome{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
 }
-#miniNavbaratbottom{
+.miniNavbaratbottom{
     display: flex;
     width: 95%;
     background-color: black;
     margin: auto;
     justify-content: space-between;
 }
-#miniNavbaratbottom > a{
+.miniNavbaratbottom > a{
 
     color: white;
     text-decoration: none;
     padding: 7px;
     font-weight: bolder;
 }
-#instaphotoAtBottom{
+.instaphotoAtBottom{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     gap: 5px;
@@ -27,4 +29,5 @@
 .Singlebanner{
     width: 90%;
     cursor: pointer;
+    margin: auto;
 }
