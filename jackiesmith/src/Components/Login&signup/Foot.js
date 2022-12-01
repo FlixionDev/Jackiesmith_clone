@@ -6,7 +6,7 @@ function Foot(){
     return(
         <footer className="footer">
             <div style={{
-                border:"2px solid white",
+                // border:"2px solid white",
                 width:"90%",
                 marginLeft:"40px",
                 display:"flex",
@@ -14,11 +14,11 @@ function Foot(){
                 padding:"10px 0 10px 0"
             }}>
                 <div style={{
-                    border:"2px solid white",
+                    // border:"2px solid white",
                     width:"20%",
                     padding:"10px 0 10px 0"
                 }}>
-                    <p style={{textAlign:"left"}}>SHOP</p>
+                    <p className="para">SHOP</p>
                     <ul style={{
                         listStyle:"none outside"
                     }}>
@@ -30,11 +30,11 @@ function Foot(){
                     </ul>
                     </div>
                     <div style={{
-                    border:"2px solid white",
+                    // border:"2px solid white",
                     width:"20%",
                     padding:"10px 0 10px 0"}}
                     >
-                        <p style={{textAlign:"left"}}>BRAND</p>
+                        <p className="para">BRAND</p>
                     <ul style={{
                         listStyle:"none outside"
                     }}>
@@ -45,10 +45,10 @@ function Foot(){
                     </ul>
                     </div>
                     <div style={{
-                    border:"2px solid white",
+                    // border:"2px solid white",
                     width:"20%",
                     padding:"10px 0 10px 0"}}
-                    > <p style={{textAlign:"left"}}>HELP</p>
+                    > <p className="para">HELP</p>
                     <ul style={{
                         listStyle:"none outside"
                     }}>
@@ -60,11 +60,11 @@ function Foot(){
                         <li style={{textAlign:"left"}}>PRIVACY POLICY</li>
                     </ul></div>
                     <div style={{
-                    border:"2px solid white",
+                    // border:"2px solid white",
                     width:"20%",
                     padding:"10px 0 10px 0"}} 
                     >
-                        <p style={{textAlign:"left", width:"250px"}}>SHIPPING DESTINATION, CURRENCY & LANGUAGE</p>
+                        <p className="para" style={{width:"250px"}}>SHIPPING DESTINATION, CURRENCY & LANGUAGE</p>
                     <ul style={{
                         listStyle:"none outside",
                         display:"flex",
@@ -86,10 +86,10 @@ function Foot(){
                     </ul>
                     </div>
                     <div style={{
-                    border:"2px solid white",
+                    // border:"2px solid white",
                     width:"20%",
                     padding:"10px 0 10px 0"}}>
-                        <p style={{textAlign:"left"}}>SHOP</p>
+                        <p className="para">SHOP</p>
                     <ul style={{
                         listStyle:"none outside"
                     }}>

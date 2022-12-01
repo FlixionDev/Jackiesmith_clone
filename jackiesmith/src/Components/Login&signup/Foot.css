@@ -4,9 +4,10 @@
     padding-bottom: 50px;
     background-color: #000;
     color: #e0d9cc;
-    margin-top: 400px;
+    margin-top: 200px;
 }
-/* p{
+.para{
+    text-align: left;
     font-size: 10px!important;
     color: #e0d9cc!important;
     margin-bottom: 10px;
@@ -18,7 +19,7 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-} */
+}
 li{
     font-size: 11px;
     color: #e0d9cc;
