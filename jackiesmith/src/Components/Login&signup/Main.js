@@ -47,7 +47,7 @@ function Main(){
             alert('Fill all data')
         }else{
             alert('Account created Successfully')
-            nav('/account/profile')
+            nav('/login/profile')
         }
     }
     const logsubmit=()=>{
@@ -61,7 +61,7 @@ function Main(){
             alert('Fill all data')
         }else{
             alert('Login Successfull')
-            nav('/account/profile')
+            nav('/login/profile')
         }
     }
     return(

@@ -51,12 +51,12 @@ function Navbar() {
         </div>
         <div>  
           <div className='icons'>
-            <Link><i className="fa-regular fa-user"></i></Link>
+            <Link to='login'><img style={{width:"48px",height:"28px"}} src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png"/></Link>
             <Link><Icon as={SearchIcon} /></Link>
-            <Link><i className="fa-light fa-heart"></i></Link>
+            <Link to='wishlist'><img style={{width:"58px",height:"28px", backgroundColor:"#fff"}} src="https://tse2.mm.bing.net/th?id=OIP.BGGcobqygsMj2-ifa16kXwHaEn&pid=Api&P=0"/></Link>
             <Link><div onClick={()=>{
                 setCart(true);
-            }}><Icon as={SearchIcon} /></div></Link>
+            }}><img style={{width:"58px",height:"28px", backgroundColor:"#fff"}} src="https://tse4.mm.bing.net/th?id=OIP.eFcJIeEJz0zE3rd3XOdRGQAAAA&pid=Api&P=0"/></div></Link>
           </div>
         </div>
       </div>

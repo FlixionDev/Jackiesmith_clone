@@ -25,8 +25,8 @@ function App() {
       <Route path='/clothing' element={<Clothing/>}/>
       <Route  path='/checkout' element={<Info/>}/>
       <Route  path='/payment' element={<Payment/>}/>
-      <Route path='/account' element={<Main />}/>
-      <Route path='/account/profile' element={<Profile />}/>
+      <Route path='/login' element={<Main />}/>
+      <Route path='/login/profile' element={<Profile />}/>
 
 
       <Route path='*' element={<h1 style={{textAlign:"center",color:"red",fontSize:"30px",fontWeight:"bolder"}}>404, Page not found</h1>}/>
