@@ -46,7 +46,7 @@ function Navbar() {
         </div>
         <div>
           <div className='img'>
-            <Image src='https://cdn.shopify.com/s/files/1/0491/4541/3794/files/LogoNegro-01_300x.png?v=1639481194' alt='Jackie_Smith'  />
+            <Link to='/'><Image src='https://cdn.shopify.com/s/files/1/0491/4541/3794/files/LogoNegro-01_300x.png?v=1639481194' alt='Jackie_Smith'  /></Link>
           </div>
         </div>
         <div>  

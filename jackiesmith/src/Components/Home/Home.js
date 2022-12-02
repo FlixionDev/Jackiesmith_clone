@@ -85,8 +85,8 @@ export default function Home() {
             })}
         </div>
         <div style={{display:"flex",width:"90%",gap:"50px",height:"797px",margin:"auto",marginTop:"100px"}}>
-            <img style={{width:"100%"}} src={fifthbanner}/>
-            <img style={{width:"100%"}} src={sixthbanner}/>
+            <img style={{width:"45%"}} src={fifthbanner}/>
+            <img style={{width:"45%"}} src={sixthbanner}/>
         </div>
         <div className={Style.Containerhome}>
             {wcloth.map((el,index)=>{
@@ -115,9 +115,9 @@ export default function Home() {
                 }   
             })}
         </div>
-        <div style={{display:"flex",width:"90%",gap:"50px",height:"797px",margin:"auto",marginTop:"100px"}}>
-            <img style={{width:"100%"}} src={elevenbanner}/>
-            <img style={{width:"100%"}} src={twelvebanner}/>
+        <div style={{display:"flex",width:"80%",gap:"50px",margin:"auto",marginTop:"100px"}}>
+            <img style={{width:"50%",marginLeft:"-5%"}} src={elevenbanner}/>
+            <img style={{width:"50%"}} src={twelvebanner}/>
         </div>
         <div className={Style.Containerhome}>
             {state.map((el,index)=>{

@@ -3,6 +3,8 @@
     justify-content: right;
    padding-top: 10px;
    background-color: white;
+   position: fixed;
+   top: 0;
 }
 .upper{
     width: 100%;
