@@ -31,10 +31,10 @@ li{
     line-height: 1.5;
 }
 ul{
-    margin-left: -40px;
+    /* margin-left: -40px; */
     margin-top: -2px;
 }
-img{
+.india{
     position: relative;
     display: inline-block;
     vertical-align: middle;

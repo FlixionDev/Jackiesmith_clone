@@ -41,7 +41,7 @@ export default function Home() {
         })
     }
     const fetchingwomen=()=>{
-        fetch(`http://localhost:3001/Women_Clothing`).then((res)=>{
+        fetch(`https://jackiesmithserver.onrender.com/Women_Clothing`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setWcloth(res);
@@ -143,9 +143,9 @@ export default function Home() {
             {
                 instagramImage.map((el,index)=>{
                     if(index<3){
-                        return <img style={{width:"100%"}} src={el}/>
+                        return <img key={index+1} style={{width:"100%"}} src={el}/>
                     }else{
-                        return <img style={{width:"100%",marginTop:"30px"}} src={el}/>
+                        return <img key={index+1} style={{width:"100%",marginTop:"30px"}} src={el}/>
                     }
                 })
             }

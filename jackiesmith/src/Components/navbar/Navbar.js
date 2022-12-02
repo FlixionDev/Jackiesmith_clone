@@ -32,9 +32,9 @@ function Navbar() {
         </div>
         <div>  
           <div className='icons'>
-            <Link><img src="https://th.bing.com/th/id/R.8e2c571ff125b3531705198a15d3103c?rik=gzhbzBpXBa%2bxMA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fuser-png-icon-big-image-png-2240.png&ehk=VeWsrun%2fvDy5QDv2Z6Xm8XnIMXyeaz2fhR3AgxlvxAc%3d&risl=&pid=ImgRaw&r=0" style={{width:"25px",backgroundColor:"white"}}/></Link>
+            <Link to='/login'><img src="https://th.bing.com/th/id/R.8e2c571ff125b3531705198a15d3103c?rik=gzhbzBpXBa%2bxMA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fuser-png-icon-big-image-png-2240.png&ehk=VeWsrun%2fvDy5QDv2Z6Xm8XnIMXyeaz2fhR3AgxlvxAc%3d&risl=&pid=ImgRaw&r=0" style={{width:"25px",backgroundColor:"white"}}/></Link>
             <Link><img src="https://lh6.googleusercontent.com/proxy/JBuU-Tv99eywZsNpsNs-wiLYO-Ard7SCfqaj5RaanfHJOkcd-tMAAMtnO-6N7426W4zQ2qDqxXdx-gES5q2t041EVpY=s0-d" style={{width:"25px",backgroundColor:"white"}}/></Link>
-            <Link><img src="https://cdn.onlinewebfonts.com/svg/img_126692.png" style={{width:"25px",backgroundColor:"white"}}/></Link>
+            <Link to='/wishlist'><img src="https://cdn.onlinewebfonts.com/svg/img_126692.png" style={{width:"25px",backgroundColor:"white"}}/></Link>
             <Link><div onClick={()=>{
                 setCart(true);
             }}><img src="https://cdn.onlinewebfonts.com/svg/img_573020.png" style={{width:"25px",backgroundColor:"white"}}/></div></Link>

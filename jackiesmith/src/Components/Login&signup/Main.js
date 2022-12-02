@@ -4,10 +4,66 @@ import "./create.css";
 import "./createinput.css";
 import "./Login.css";
 import "./password.css";
+import { Link, useNavigate } from "react-router-dom";
 
 function Main(){
     const [right, setRight]=React.useState(true)
     const [left, setLeft]=React.useState(true)
+    const [logmail, setLogmail]=React.useState("")
+    const [logpassword, setLogpassword]=React.useState("")
+    const [fname, setFname]=React.useState("")
+    const [lname, setLname]=React.useState("")
+    const [signmail, setSignmail]=React.useState("")
+    const [signpassword, setSignpassword]=React.useState("")
+    const nav = useNavigate()
+    const logechange=(e)=>{
+        setLogmail(e.target.value)
+    }
+    const logpasschange=(e)=>{
+        setLogpassword(e.target.value)
+    }
+    const lnamechange=(e)=>{
+        setLname(e.target.value)
+    }
+    const fnamechange=(e)=>{
+        setFname(e.target.value)
+    }
+    const signechange=(e)=>{
+        setSignmail(e.target.value)
+    }
+    const signpasschange=(e)=>{
+        setSignpassword(e.target.value)
+    }
+    const submit=()=>{
+        var signup = JSON.parse(localStorage.getItem("signup"))
+        var obj1={
+            fname:fname,
+            lname:lname,
+            signmail:signmail,
+            signpassword:signpassword
+        }
+        localStorage.setItem("signup", JSON.stringify(obj1));
+        if(signmail=="" || signpassword=="" || fname=="" || lname==""){
+            alert('Fill all data')
+        }else{
+            alert('Account created Successfully')
+            nav('/login/profile')
+        }
+    }
+    const logsubmit=()=>{
+        var login = JSON.parse(localStorage.getItem("login")) 
+        var obj2={
+            logmail:logmail,
+            logpassword:logpassword
+        }
+        localStorage.setItem("login", JSON.stringify(obj2));
+        if(logmail=="" || logpassword==""){
+            alert('Fill all data')
+        }else{
+            alert('Login Successfull')
+            nav('/login/profile')
+        }
+    }
     return(
         <div className="main">
         <div className="main1">
@@ -22,7 +78,7 @@ function Main(){
             </header>
             <form>
                 <label className="emaillabel">EMAIL</label>
-                <input type="email" className="emailinput"></input>
+                <input type="email" className="emailinput" value={logmail} onChange={logechange}></input>
                 <div className="passdivmain">
                     <div className="passdivleft">
                         <label className="passlabelleft">PASSWORD</label>
@@ -31,8 +87,8 @@ function Main(){
                         <label className="passlabelright" onClick={()=>setLeft(!left)}>Forgot password?</label>
                     </div>
                 </div>
-                <input className="passinput" type="password"></input>
-                <button className="btnsignin">SIGN IN</button>
+                <input className="passinput" type="password" value={logpassword} onChange={logpasschange}></input>
+                <button className="btnsignin" onClick={()=>logsubmit()}>SIGN IN</button>
             </form>
             <div className="lastdiv">
                 <button className="facebookbtn">Facebook Login</button>
@@ -92,15 +148,15 @@ function Main(){
             </header>
             <form>
                 <label className="labels">FIRST NAME</label>
-                <input className="inputs" type="text"></input>
+                <input className="inputs" type="text" value={fname} onChange={fnamechange}></input>
                 <label className="labels">LAST NAME</label>
-                <input className="inputs" type="text"></input>
+                <input className="inputs" type="text" value={lname} onChange={lnamechange}></input>
                 <label className="labels">EMAIL</label>
-                <input className="inputs" type="email"></input>
+                <input className="inputs" type="email" value={signmail} onChange={signechange}></input>
                 <label className="labels">PASSWORD</label>
-                <input className="inputs" type="password"></input>
+                <input className="inputs" type="password" value={signpassword} onChange={signpasschange}></input>
                 <div className="signuplastdiv">
-                    <button className="signupsubmit">SUBMIT</button>
+                    <button className="signupsubmit" onClick={()=>submit()}>SUBMIT</button>
                     <button className="signupcancel" onClick={()=>setRight(!right)}>CANCEL</button>
                 </div>
             </form>
