@@ -8,6 +8,8 @@ import Bags from './Components/Bags/Bags';
 import ProductDescription from './Components/ProductDescription/ProductDescription';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/navbar/Navbar';
+import Profile from './Components/Login&signup/Profile';
+import Foot from './Components/Login&signup/Foot';
 
 
 
@@ -23,8 +25,12 @@ function App() {
       <Route path='/sneaker' element={<Sneaker/>}/>
       <Route path='/productdescription' element={<ProductDescription/>}/>
       <Route path='/clothing' element={<Clothing/>}/>
+      <Route path='/account' element={<Main />}/>
+      <Route path='/account/profile' element={<Profile />}/>
+
       <Route path='*' element={<h1 style={{textAlign:"center",color:"red",fontSize:"30px",fontWeight:"bolder"}}>404, Page not found</h1>}/>
     </Routes>  
+    <Foot />
     </div>
   );
 }
