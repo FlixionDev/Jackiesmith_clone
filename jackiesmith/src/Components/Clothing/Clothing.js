@@ -31,7 +31,7 @@ export default function Clothing() {
     }
   return (
     <div>
-        <form style={{marginTop:"30px"}} onChange={showfilter}>
+        <form style={{marginTop:"120px"}} onChange={showfilter}>
                 <select ref={ref1} >
                     <option value=''>Sorting</option>
                     <option value='asc'>Low to High</option>

@@ -62,11 +62,11 @@ function Navbar() {
       </div>
       <div className='lower'>
           <div className='links'>
-          <Link>   NEW ARRIVALS</Link>
-            <Link to='bags' onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}}>   BAGS<Icon as={ChevronDownIcon} /></Link>
+          <Link to={'/'}>   NEW ARRIVALS</Link>
+            <Link to='/bags' onMouseOver={()=>{setd1(true);}}onMouseOut={()=>{setd1(false);}}>   BAGS<Icon as={ChevronDownIcon} /></Link>
             <Link to='#' onMouseOver={()=>{setd2(true);}}onMouseOut={()=>{setd2(false);}}>   ACCESSORIES<Icon as={ChevronDownIcon} /></Link>
-            <Link to='clothing' onMouseOver={()=>{setd3(true);}}onMouseOut={()=>{setd3(false);}}>   CLOTHING<Icon as={ChevronDownIcon} /></Link>
-            <Link to='sneaker'>   SNEAKERS</Link>
+            <Link to='/clothing' onMouseOver={()=>{setd3(true);}}onMouseOut={()=>{setd3(false);}}>   CLOTHING<Icon as={ChevronDownIcon} /></Link>
+            <Link to='/sneaker'>   SNEAKERS</Link>
             <Link onMouseOver={()=>{setd4(true);}}onMouseOut={()=>{setd4(false);}}>   OUR COMMUNITY<Icon as={ChevronDownIcon} /></Link>
           </div>
       </div>
