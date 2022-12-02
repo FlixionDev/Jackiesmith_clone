@@ -19,10 +19,10 @@ function App() {
     {/* <ProductDescription /> */}
     <Routes>
       <Route path='/' element={<div><Navbar/><Home/></div>}/>
-      <Route path='/bags' element={<Bags/>}/>
-      <Route path='/sneaker' element={<Sneaker/>}/>
-      <Route path='/productdescription' element={<ProductDescription/>}/>
-      <Route path='/clothing' element={<Clothing/>}/>
+      <Route path='/bags' element={<div><Navbar/><Bags/></div>}/>
+      <Route path='/sneaker' element={<div><Navbar/><Sneaker/></div>}/>
+      <Route path='/productdescription' element={<div><Navbar/><ProductDescription/></div>}/>
+      <Route path='/clothing' element={<div><Navbar/><Clothing/></div>}/>
       <Route  path='/checkout' element={<Info/>}/>
       <Route  path='/payment' element={<Payment/>}/>
       <Route path='/account' element={<Main />}/>
