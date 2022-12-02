@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3,1fr);
     width: 90%;
     margin: auto;
-    /* margin-top: 150px; */
+    margin-top: 20px;
 }
 .miniNavbaratbottom{
     display: flex;

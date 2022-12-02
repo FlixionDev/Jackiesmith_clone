@@ -12,6 +12,7 @@ import Info from "./Components/checkout/Info"
 import Payment from "./Components/checkout/Payment"
 import Profile from './Components/Login&signup/Profile';
 import Foot from './Components/Login&signup/Foot';
+import Wishlist from './Components/Wishlist/Wishlist';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Route path='/clothing' element={<div><Navbar/><Clothing/></div>}/>
       <Route  path='/checkout' element={<Info/>}/>
       <Route  path='/payment' element={<Payment/>}/>
+      <Route path='/wishlist' element={<div><Navbar/><Wishlist/></div>}/>
       <Route path='/login' element={<Main />}/>
       <Route path='/login/profile' element={<Profile />}/>
 
