@@ -15,27 +15,8 @@ function Navbar() {
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
   const [cart,setCart]=useState(false);
-  const [cartlen,setCartlen]=useState([{
-    "id": 1,
-    "title": "GOTHAM POWER COLOR BELT BAG",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_A_1800x1800.jpg?v=1663269548",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPA87X94_BAJA_B_1800x1800.jpg?v=1663269548"
-  },
-  {
-    "id": 2,
-    "title": "GOTHAM ",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_A_1800x1800.jpg?v=1663269816",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPC03K94_BAJA_B_1800x1800.jpg?v=1663269816"
-  },
-  {
-    "id": 3,
-    "title": "GOTHAM POWER",
-    "price": "$140",
-    "image_1": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_A_1800x1800.jpg?v=1663269990",
-    "image_2": "https://cdn.shopify.com/s/files/1/0491/4541/3794/products/CP00988MPD29R94_BAJA_B_1800x1800.jpg?v=1663269990"
-  }]);
+  var lcart =JSON.parse(localStorage.getItem("cart")) || [];
+  const [cartlen,setCartlen]=useState(lcart);
   const [num,setNum]=useState(1)
   return (
     <div>
@@ -51,12 +32,12 @@ function Navbar() {
         </div>
         <div>  
           <div className='icons'>
-            <Link><i className="fa-regular fa-user"></i></Link>
-            <Link><Icon as={SearchIcon} /></Link>
-            <Link><i className="fa-light fa-heart"></i></Link>
+            <Link><img src="https://th.bing.com/th/id/R.8e2c571ff125b3531705198a15d3103c?rik=gzhbzBpXBa%2bxMA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fuser-png-icon-big-image-png-2240.png&ehk=VeWsrun%2fvDy5QDv2Z6Xm8XnIMXyeaz2fhR3AgxlvxAc%3d&risl=&pid=ImgRaw&r=0" style={{width:"25px",backgroundColor:"white"}}/></Link>
+            <Link><img src="https://lh6.googleusercontent.com/proxy/JBuU-Tv99eywZsNpsNs-wiLYO-Ard7SCfqaj5RaanfHJOkcd-tMAAMtnO-6N7426W4zQ2qDqxXdx-gES5q2t041EVpY=s0-d" style={{width:"25px",backgroundColor:"white"}}/></Link>
+            <Link><img src="https://cdn.onlinewebfonts.com/svg/img_126692.png" style={{width:"25px",backgroundColor:"white"}}/></Link>
             <Link><div onClick={()=>{
                 setCart(true);
-            }}><Icon as={SearchIcon} /></div></Link>
+            }}><img src="https://cdn.onlinewebfonts.com/svg/img_573020.png" style={{width:"25px",backgroundColor:"white"}}/></div></Link>
           </div>
         </div>
       </div>
@@ -82,7 +63,7 @@ function Navbar() {
         <div className='cart_footer'>
           {cartlen.length>0? <div><div className='prodiv'>
             {cartlen.map((ele,ind)=>{
-              
+              //setNum(ele.quantity);
               return <div className='prod'  key={ind+1}>
                 <div><img src={ele.image_1} width={'50px'} height={"50px"} /></div>
                 <div>

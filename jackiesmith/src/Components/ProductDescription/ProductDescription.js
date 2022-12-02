@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { Button, ButtonGroup, Stack } from '@chakra-ui/react'
 export default function ProductDescription() {
+  var cart =JSON.parse(localStorage.getItem("cart")) || [];
   var productDescription = JSON.parse(localStorage.getItem("productDescription")) || [];
   const [state, setState] = React.useState(productDescription);
   const [quantity, setQuantity] = React.useState(1);
@@ -55,7 +56,17 @@ export default function ProductDescription() {
             +
           </Button>
         </Stack>
-        <div><button style={{ "width": "100%", "backgroundColor": "black", "color": "white", "padding": "7px", "marginTop": "20px" }}>ADD TO CART</button></div>
+
+
+
+        {/* //////////////////////ADD TO CART////////////////////////// */}
+        <div><button onClick={()=>{
+          state.quantity=quantity;
+          cart.push(state);
+          localStorage.setItem("cart", JSON.stringify(cart));
+        }} style={{ "width": "100%", "backgroundColor": "black", "color": "white", "padding": "7px", "marginTop": "20px" }}>ADD TO CART</button></div>
+        {/* ///////////////////////////////////////////////// */}
+        
         <div><button style={{ "width": "100%", "backgroundColor": "white", "color": "black", "padding": "6px", "marginTop": "20px", "border": "1px solid black" }}>WISH LIST &#9825;</button></div>
         <div style={{ display: "flex", 'marginTop': "30px" }}>
           <div><img style={{ backgroundColor: "white", "width": "150px", "height": "150px" }} src='https://cdn.shopify.com/s/files/1/0208/1956/t/52/assets/pinkBoxes.jpg?v=12727441625400655661660156897' /></div>
