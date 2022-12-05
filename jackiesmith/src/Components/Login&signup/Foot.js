@@ -3,6 +3,10 @@ import "./Foot.css"
 import { ChevronDownIcon, Icon } from "@chakra-ui/icons";
 
 function Foot(){
+    const [state, setState]=React.useState(false)
+    const lang=()=>{
+        setState(!state)
+    }
     return(
         <footer className="footer">
             <div style={{
@@ -75,9 +79,9 @@ function Foot(){
                         <span style={{borderLeft:"1px solid white", marginLeft:"10px", height:"20px",marginTop:"5px"}}></span>
                         <ul style={{listStyle:"none outside", marginLeft:"10px"}}>
                             <li style={{fontSize:"13px"}}>English</li>
-                            <li style={{fontSize:"13px"}}>Spanish</li>
+                            <li style={{fontSize:"13px"}}>{!state?"":"Spanish"}</li>
                         </ul>
-                        <h2 style={{marginLeft:"10px", fontSize:"25px", marginTop:"-10px"}}><Icon as={ChevronDownIcon}/></h2>
+                        <h2 onClick={()=>lang()} style={{marginLeft:"10px", fontSize:"25px", marginTop:"-10px"}}><Icon as={ChevronDownIcon}/></h2>
                         </div>
                         </div>
                     <div style={{
