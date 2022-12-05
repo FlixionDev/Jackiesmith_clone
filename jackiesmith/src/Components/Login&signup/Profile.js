@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Profile(){
+    const [state3, setState3]=React.useState(false)
+    const div3=()=>{
+        setState3(!state3)
+    }
     const nav1=useNavigate()
     const keep=()=>{
         nav1('/')
@@ -105,15 +109,15 @@ function Profile(){
                     fontSize:"20px"
                 }}><Icon as={ChevronDownIcon}/></h4>
                 </div>
-                <div style={{
+                <div onClick={()=>div3()} style={{
                     display:"flex",
-                    flexDirection:"row",
+                    flexDirection:"column",
                     border:"1px solid #d6d6d6",
                     padding:"10px",
                     width:"60%",
                     margin:"auto auto auto auto",
                     textAlign:"center",
-                }}><p style={{
+                }}><div style={{display:"flex",flexDirection:"row"}}><p style={{
                     margin:"auto",
                     textAlign:"center",
                     fontFamily:"Poppins,sans-serif",
@@ -124,6 +128,8 @@ function Profile(){
                 <h4 style={{
                     fontSize:"20px"
                 }}><Icon as={ChevronDownIcon}/></h4>
+                </div>
+                <div><p>{!state3?"":"You haven't placed any orders yet."}</p></div>
                 </div>
                 <button style={{
                     marginTop:"50px",
