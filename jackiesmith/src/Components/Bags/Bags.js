@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 export default function Bags() {
     useEffect(() => {
-        fetchingAllBags("http://localhost:3001/allBags");
+        fetchingAllBags("https://json-server-vercel-ten.vercel.app/allBags");
     }, [])
     var ref1 = React.useRef("");
     var ref2 = React.useRef("");
@@ -31,13 +31,13 @@ export default function Bags() {
         setFilter(true)
         var sort = ref1.current.value;
         if (sort === '' && ref2.current.value === '') {
-            fetchingAllBags(`http://localhost:3001/allBags`)
+            fetchingAllBags(`https://json-server-vercel-ten.vercel.app/allBags`)
         } else if (sort !== '' && ref2.current.value === '') {
-            fetchingAllBags(`http://localhost:3001/allBags?_sort=price&_order=${sort}`)
+            fetchingAllBags(`https://json-server-vercel-ten.vercel.app/allBags?_sort=price&_order=${sort}`)
         } else if (sort === '' && ref2.current.value !== '') {
-            fetchingAllBags(`http://localhost:3001/allBags?title_like=${ref2.current.value}`)
+            fetchingAllBags(`https://json-server-vercel-ten.vercel.app/allBags?title_like=${ref2.current.value}`)
         } else {
-            fetchingAllBags(`http://localhost:3001/allBags?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
+            fetchingAllBags(`https://json-server-vercel-ten.vercel.app/allBags?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
         }
 
     }
