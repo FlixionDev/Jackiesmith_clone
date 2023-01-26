@@ -29,10 +29,9 @@ function App() {
       <Route  path='/checkout' element={<Info/>}/>
       <Route  path='/payment' element={<Payment/>}/>
       <Route path='/wishlist' element={<div><Navbar/><Wishlist/></div>}/>
+
       <Route path='/login' element={<Privateroute><Main/></Privateroute>}/>
       <Route path='/login/profile' element={<Profile />}/>
-
-
       <Route path='*' element={<h1 style={{textAlign:"center",color:"red",fontSize:"30px",fontWeight:"bolder"}}>404, Page not found</h1>}/>
     </Routes>  
     <Foot />
