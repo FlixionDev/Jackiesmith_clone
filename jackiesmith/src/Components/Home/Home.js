@@ -34,14 +34,14 @@ export default function Home() {
     const [state,setState] = React.useState([]);
     const [wcloth,setWcloth] = React.useState([]);
     const fetchingdata=()=>{
-        fetch(`http://localhost:3001/bags`).then((res)=>{
+        fetch(`https://json-server-vercel-ten.vercel.app/bags`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setState(res)
         })
     }
     const fetchingwomen=()=>{
-        fetch(`http://localhost:3001/Women_Clothing`).then((res)=>{
+        fetch(`https://json-server-vercel-ten.vercel.app/Women_Clothing`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setWcloth(res);

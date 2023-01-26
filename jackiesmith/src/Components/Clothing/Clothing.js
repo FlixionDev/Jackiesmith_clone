@@ -3,7 +3,7 @@ import Displayproduct from '../Displayproduct/Displayproduct';
 import Style from './Clothing.module.css'
 export default function Clothing() {
     useEffect(()=>{
-        fetchingclothing(`http://localhost:3001/clothing`);    
+        fetchingclothing(`https://json-server-vercel-ten.vercel.app/clothing`);    
     },[])
     var ref1=React.useRef("");
     var ref2=React.useRef("");
@@ -19,13 +19,13 @@ export default function Clothing() {
         e.preventDefault(); 
         var sort=ref1.current.value;
         if(sort==='' && ref2.current.value===''){
-            fetchingclothing(`http://localhost:3001/clothing`)
+            fetchingclothing(`https://json-server-vercel-ten.vercel.app/clothing`)
         }else if(sort!=='' && ref2.current.value===''){
-            fetchingclothing(`http://localhost:3001/clothing?_sort=price&_order=${sort}`)
+            fetchingclothing(`https://json-server-vercel-ten.vercel.app/clothing?_sort=price&_order=${sort}`)
         }else if(sort==='' && ref2.current.value!==''){
-            fetchingclothing(`http://localhost:3001/clothing?title_like=${ref2.current.value}`)
+            fetchingclothing(`https://json-server-vercel-ten.vercel.app/clothing?title_like=${ref2.current.value}`)
         }else{
-            fetchingclothing(`http://localhost:3001/clothing?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
+            fetchingclothing(`https://json-server-vercel-ten.vercel.app/clothing?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
         }
         
     }

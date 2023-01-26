@@ -4,7 +4,7 @@ import Style from './Sneaker.module.css';
 import {Outlet} from 'react-router-dom'
 export default function Sneaker() {
     useEffect(()=>{
-        fetchingsneaker(`http://localhost:3001/sneaker`);    
+        fetchingsneaker(`https://json-server-vercel-ten.vercel.app/sneaker`);    
     },[]);
     var ref1=React.useRef("");
     var ref2=React.useRef("");
@@ -21,13 +21,13 @@ export default function Sneaker() {
         
         var sort=ref1.current.value;
         if(sort==='' && ref2.current.value===''){
-            fetchingsneaker(`http://localhost:3001/sneaker`)
+            fetchingsneaker(`https://json-server-vercel-ten.vercel.app/sneaker`)
         }else if(sort!=='' && ref2.current.value===''){
-            fetchingsneaker(`http://localhost:3001/sneaker?_sort=price&_order=${sort}`)
+            fetchingsneaker(`https://json-server-vercel-ten.vercel.app/sneaker?_sort=price&_order=${sort}`)
         }else if(sort==='' && ref2.current.value!==''){
-            fetchingsneaker(`http://localhost:3001/sneaker?title_like=${ref2.current.value}`)
+            fetchingsneaker(`https://json-server-vercel-ten.vercel.app/sneaker?title_like=${ref2.current.value}`)
         }else{
-            fetchingsneaker(`http://localhost:3001/sneaker?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
+            fetchingsneaker(`https://json-server-vercel-ten.vercel.app/sneaker?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
         }
         
     }
