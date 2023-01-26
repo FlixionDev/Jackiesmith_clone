@@ -1,4 +1,4 @@
-import React ,{useState}from 'react'
+import React ,{useState,useEffect}from 'react'
 import './navbar.css'
 import {Link} from "react-router-dom"
 import { Image } from '@chakra-ui/react'
@@ -8,6 +8,9 @@ import Dropdown1 from '../dropdown/Dropdown1'
 import Dropdown2 from '../dropdown/Dropdown2'
 import Dropdown3 from '../dropdown/Dropdown3'
 import Dropdown4 from '../dropdown/Dropdown4'
+import {useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
+import { actiontotal } from '../../Redux/Action/Action'
 
 function Navbar() {
   const [d1,setd1]=useState(false);
@@ -15,9 +18,25 @@ function Navbar() {
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
   const [cart,setCart]=useState(false);
+  const store=useSelector((store)=>{return store.Cart})
+  const isAuth=useSelector((store)=>{return store.isAuth})
+
+  console.log(store)
+  const dispatch=useDispatch();
   var lcart =JSON.parse(localStorage.getItem("cart")) || [];
   const [cartlen,setCartlen]=useState(lcart);
-  const [num,setNum]=useState(1)
+  const [num,setNum]=useState(1);
+  const [total,setTotal]= useState(0);
+  useEffect(()=>{
+
+    if(store.length>0){
+ 
+     setTotal(store[0].price*store[0].count)
+    }
+  })
+  const sendtoaction=()=>{
+    actiontotal(total,dispatch);
+  }
   return (
     <div>
 <div className='navbar'>
@@ -61,20 +80,27 @@ function Navbar() {
           <hr></hr>
         </div>
         <div className='cart_footer'>
-          {cartlen.length>0? <div><div className='prodiv'>
-            {cartlen.map((ele,ind)=>{
+          {store.length>0? <div><div className='prodiv'>
+            {store.map((ele,ind)=>{
               //setNum(ele.quantity);
-              return <div className='prod'  key={ind+1}>
+              return <div className='prod' style={{margin:"auto"}}  key={ind+1}>
                 <div><img src={ele.image_1} width={'50px'} height={"50px"} /></div>
-                <div>
+                <div style={{display:"flex",flexDirection:"column",justifyContent:"space-around"}}>
                 <div>{ele.title}</div>
-                <div> <button onClick={()=>{setNum(num-1)}}>-</button>{num}<button onClick={()=>{setNum(num+1)}}>+</button></div>
+                <div>{`Quantity : ${ele.count}`}</div>
+                {/* <div> <button onClick={()=>{setNum(num-1)}}>-</button>{num}<button onClick={()=>{setNum(num+1)}}>+</button></div> */}
                 </div>
+                
+                <div style={{marginTop:"20px"}}>$ {total}</div>
               </div>
             
             })}
           </div>
-          <div className='checkout'><Link to={"/checkout"}><button className='btn'>CHECKOUT</button></Link></div></div>:"Your cart is currently empty."}
+          <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
+            <p>Subtotal Amount</p>
+            <p>$ {total}</p>
+            </div>
+          <div className='checkout'><Link onClick={sendtoaction} to={isAuth ? "/checkout" : '/login'}><button className='btn'>CHECKOUT</button></Link></div></div>:"Your cart is currently empty."}
         </div>
         </div>:""}{/* cart end */}
     

@@ -3,8 +3,12 @@ import Style from './ProductDescription.module.css'
 import giftbox from '../Images/giftbox.jpeg'
 import card from '../Images/card.png';
 import ret from '../Images/return.png';
-import store from '../Images/store.png';
+import zstore from '../Images/store.png';
 import ship from '../Images/shipping.png';
+import { actionCart } from '../../Redux/Action/Action';
+import {useDispatch} from 'react-redux';
+
+import {useSelector} from 'react-redux'
 import {
   Accordion,
   AccordionItem,
@@ -18,10 +22,22 @@ import { Button, ButtonGroup, Stack } from '@chakra-ui/react'
 export default function ProductDescription() {
   var cart =JSON.parse(localStorage.getItem("cart")) || [];
   var productDescription = JSON.parse(localStorage.getItem("productDescription")) || [];
+  console.log(productDescription)
   const [state, setState] = React.useState(productDescription);
   const [quantity, setQuantity] = React.useState(1);
   const [image1, setImg1] = React.useState(true);
   const [image2, setImg2] = React.useState(false);
+  const store=useSelector((store)=>{return store.Cart})
+   console.log(store)
+  const dispatch=useDispatch();
+  const addtocart=()=>{
+    var cart={
+      ...productDescription,
+      count:quantity,
+    }
+    // store.push(cart)
+    actionCart(cart,dispatch)
+  }
   return (
     <div className={Style.Container}>
       <div className={Style.imageContainer}>
@@ -60,14 +76,15 @@ export default function ProductDescription() {
 
 
         {/* //////////////////////ADD TO CART////////////////////////// */}
-        <div><button onClick={()=>{
+        {/* ()=>{
           state.quantity=quantity;
           cart.push(state);
           localStorage.setItem("cart", JSON.stringify(cart));
-        }} style={{ "width": "100%", "backgroundColor": "black", "color": "white", "padding": "7px", "marginTop": "20px" }}>ADD TO CART</button></div>
+        }  inside onclick line 68*/}
+        <div><button onClick={addtocart} style={{ "width": "100%", "backgroundColor": "black", "color": "white", "padding": "7px", "marginTop": "20px" }}>ADD TO CART</button></div>
         {/* ///////////////////////////////////////////////// */}
         
-        <div><button style={{ "width": "100%", "backgroundColor": "white", "color": "black", "padding": "6px", "marginTop": "20px", "border": "1px solid black" }}>WISH LIST &#9825;</button></div>
+        <div><button  style={{ "width": "100%", "backgroundColor": "white", "color": "black", "padding": "6px", "marginTop": "20px", "border": "1px solid black" }}>WISH LIST &#9825;</button></div>
         <div style={{ display: "flex", 'marginTop': "30px" }}>
           <div><img style={{ backgroundColor: "white", "width": "150px", "height": "150px" }} src='https://cdn.shopify.com/s/files/1/0208/1956/t/52/assets/pinkBoxes.jpg?v=12727441625400655661660156897' /></div>
           <div style={{ "marginLeft": "10px" }}>
@@ -84,7 +101,7 @@ export default function ProductDescription() {
           </div>
           <hr />
           <div style={{ "border": "0.1px solid gray", "width": "150px" }}>
-            <div><img style={{ backgroundColor: "white", "width": "100px", "height": "100px", margin: "auto" }} src={store} /></div>
+            <div><img style={{ backgroundColor: "white", "width": "100px", "height": "100px", margin: "auto" }} src={zstore} /></div>
             <div><p>WITHDRAWAL IN STORE IN 2 HS!</p></div>
           </div>
           <div style={{ "border": "0.1px solid gray", "width": "150px" }}>

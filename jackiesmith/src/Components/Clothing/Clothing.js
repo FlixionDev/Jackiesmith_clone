@@ -3,7 +3,7 @@ import Displayproduct from '../Displayproduct/Displayproduct';
 import Style from './Clothing.module.css'
 export default function Clothing() {
     useEffect(()=>{
-        fetchingclothing(`https://jackiesmithserver.onrender.com/clothing`);    
+        fetchingclothing(`http://localhost:3001/clothing`);    
     },[])
     var ref1=React.useRef("");
     var ref2=React.useRef("");
@@ -19,13 +19,13 @@ export default function Clothing() {
         e.preventDefault(); 
         var sort=ref1.current.value;
         if(sort==='' && ref2.current.value===''){
-            fetchingclothing(`https://jackiesmithserver.onrender.com/clothing`)
+            fetchingclothing(`http://localhost:3001/clothing`)
         }else if(sort!=='' && ref2.current.value===''){
-            fetchingclothing(`https://jackiesmithserver.onrender.com/clothing?_sort=price&_order=${sort}`)
+            fetchingclothing(`http://localhost:3001/clothing?_sort=price&_order=${sort}`)
         }else if(sort==='' && ref2.current.value!==''){
-            fetchingclothing(`https://jackiesmithserver.onrender.com/clothing?title_like=${ref2.current.value}`)
+            fetchingclothing(`http://localhost:3001/clothing?title_like=${ref2.current.value}`)
         }else{
-            fetchingclothing(`https://jackiesmithserver.onrender.com/clothing?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
+            fetchingclothing(`http://localhost:3001/clothing?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
         }
         
     }
