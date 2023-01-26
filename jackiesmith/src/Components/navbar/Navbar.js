@@ -2,6 +2,7 @@ import React ,{useState,useEffect}from 'react'
 import './navbar.css'
 import {Link} from "react-router-dom"
 import { Image } from '@chakra-ui/react'
+import { FaTrash } from "react-icons/fa";
 import { Icon } from '@chakra-ui/react'
 import { ChevronDownIcon,CloseIcon,SearchIcon} from '@chakra-ui/icons'
 import Dropdown1 from '../dropdown/Dropdown1'
@@ -30,8 +31,11 @@ function Navbar() {
   useEffect(()=>{
 
     if(store.length>0){
- 
-     setTotal(store[0].price*store[0].count)
+      let tot=store.reduce((acc,el)=>{
+        return acc+Number(el.price)*Number(el.count);
+      },0)
+      //console.log(tot)
+     setTotal(tot)
     }
   })
   const sendtoaction=()=>{
@@ -88,17 +92,21 @@ function Navbar() {
                 <div style={{display:"flex",flexDirection:"column",justifyContent:"space-around"}}>
                 <div>{ele.title}</div>
                 <div>{`Quantity : ${ele.count}`}</div>
+                
                 {/* <div> <button onClick={()=>{setNum(num-1)}}>-</button>{num}<button onClick={()=>{setNum(num+1)}}>+</button></div> */}
                 </div>
-                
-                <div style={{marginTop:"20px"}}>$ {total}</div>
+                <div>
+                {/* <div style={{display:"none"}}>var t=Number(ele.price)*Number(ele.count)</div> */}
+                <div style={{marginTop:"20px"}}>$ {(Number(ele.price)*Number(ele.count)).toFixed(2)}</div>
+                </div>
+                <div style={{marginTop:"20px"}}><button><FaTrash/></button></div>
               </div>
             
             })}
           </div>
           <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
             <p>Subtotal Amount</p>
-            <p>$ {total}</p>
+            <p>$ {total.toFixed(2)}</p>
             </div>
           <div className='checkout'><Link onClick={sendtoaction} to={isAuth ? "/checkout" : '/login'}><button className='btn'>CHECKOUT</button></Link></div></div>:"Your cart is currently empty."}
         </div>
