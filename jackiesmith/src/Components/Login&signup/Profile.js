@@ -2,11 +2,26 @@ import React from "react";
 import { Icon } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Navigate } from "react-router-dom";
+import {useSelector} from 'react-redux'
+import { logAuth } from "../../Redux/Action/Action";
+import {useDispatch} from 'react-redux'
 
 function Profile(){
+    const dispatch=useDispatch();
+    const store=useSelector((store)=>{return store})
+    
+   // console.log(store)
     const nav1=useNavigate()
     const keep=()=>{
+        nav1('/')
+    }
+    //var isLogin= localStorage.getItem("isLogin");
+    const userLogout=()=>{
+        // localStorage.setItem("isLogin",false);
+
+        logAuth(false,dispatch)
+        alert("Logout successfull")
         nav1('/')
     }
     return (
@@ -37,7 +52,7 @@ function Profile(){
                     lineHeight:"10px",
                     fontFamily:"Poppins,sans-serif",
                     letterSpacing:"0em"
-                }}>Hello!</h3>
+                }}>{`Hello ${store.CreatedAcc[0].fname} !`}</h3>
                 <p style={{
                     fontSize:"1.18333em",
                     fontWeight:"300",
@@ -125,7 +140,7 @@ function Profile(){
                     fontSize:"20px"
                 }}><Icon as={ChevronDownIcon}/></h4>
                 </div>
-                <button style={{
+                <button onClick={userLogout} style={{
                     marginTop:"50px",
                     padding:"12px 20px",
                     width:"250px",

@@ -1,15 +1,19 @@
 import React,{useState} from 'react'
-import {Link} from "react-router-dom"
+import {Link,useNavigate} from "react-router-dom"
 import { Icon ,Accordion,AccordionButton,AccordionIcon,Box,AccordionItem,AccordionPanel,Radio,Stack,RadioGroup} from '@chakra-ui/react'
 import { ChevronLeftIcon } from '@chakra-ui/icons'
 import './payment.css'
-
+import {useSelector} from 'react-redux'
 
 function Payment() {
-  const [total,setTotal]=useState(500)
+  const store=useSelector((store)=>{return store.total})
+  //console.log(store)
+  const [total,setTotal]=useState(store)
   const [code,setCode]=useState("")
   const [card,setCard]=useState(true)
   const [car,setCar]=useState(true)
+  const nav=useNavigate();
+
   return (
     <div className='address2'>
       <div className='details2'>
@@ -73,12 +77,13 @@ function Payment() {
               </Stack>
             </RadioGroup></div>
         <div><Link to={"/checkout"}><Icon as={ChevronLeftIcon} w={8} h={8} color='rgb(255, 64, 102)' />Return</Link><Link ><button onClick={()=>{
-          alert("Your order is Placed")
+          alert('Your Total is $'+total)
           setTimeout(()=>{
-            alert('Your Total is '+total)
+            alert("Your order is Placed")
           },2000)
           setTimeout(()=>{
-            window.location="/"
+            //window.location="/"
+            nav('/')
           },2000)
 
         }}>PAY</button></Link></div>
@@ -97,7 +102,7 @@ function Payment() {
             setTotal(total-(total/10));
           }}}>Apply</button>
         </div>
-        <div className='calc'>Total:{total}</div>
+        <div className='calc'>Total: ${total}</div>
       </div>
     </div>
   )

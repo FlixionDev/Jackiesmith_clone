@@ -5,7 +5,10 @@ import "./createinput.css";
 import "./Login.css";
 import "./password.css";
 import { Link, useNavigate } from "react-router-dom";
-
+import {useDispatch} from 'react-redux'
+import { createAccdata } from "../../Redux/Action/Action";
+import {useSelector} from 'react-redux'
+import { logAuth } from "../../Redux/Action/Action";
 function Main(){
     const [right, setRight]=React.useState(true)
     const [left, setLeft]=React.useState(true)
@@ -15,6 +18,9 @@ function Main(){
     const [lname, setLname]=React.useState("")
     const [signmail, setSignmail]=React.useState("")
     const [signpassword, setSignpassword]=React.useState("")
+    const store=useSelector((store)=>{return store})
+    const dispatch=useDispatch();
+    console.log(store)
     const nav = useNavigate()
     const logechange=(e)=>{
         setLogmail(e.target.value)
@@ -34,35 +40,79 @@ function Main(){
     const signpasschange=(e)=>{
         setSignpassword(e.target.value)
     }
+    // const submit=()=>{
+    //     var signup = JSON.parse(localStorage.getItem("signup"))
+    //     var obj1={
+    //         fname:fname,
+    //         lname:lname,
+    //         signmail:signmail,
+    //         signpassword:signpassword
+    //     }
+    //     localStorage.setItem("signup", JSON.stringify(obj1));
+    //     if(signmail=="" || signpassword=="" || fname=="" || lname==""){
+    //         alert('Fill all data')
+    //     }else{
+    //         alert('Account created Successfully')
+    //         nav('/login/profile')
+    //     }
+    // }
+    // const logsubmit=()=>{
+    //     var login = JSON.parse(localStorage.getItem("login")) 
+    //     var obj2={
+    //         logmail:logmail,
+    //         logpassword:logpassword
+    //     }
+    //     localStorage.setItem("login", JSON.stringify(obj2));
+    //     if(logmail=="" || logpassword==""){
+    //         alert('Fill all data')
+    //     }else{
+    //         alert('Login Successfull')
+    //         nav('/login/profile')
+    //     }
+    // }
+    const logsubmit=()=>{
+       // var signup = JSON.parse(localStorage.getItem("signup")) || [];
+        var isLogin= localStorage.getItem("isLogin");
+        //console.log("hii")
+        store.CreatedAcc.map((el)=>{
+            if(el.email==logmail && el.password==logpassword){
+                // localStorage.setItem("isLogin",true)
+                logAuth(true,dispatch)
+                alert("Login successfull");
+                nav('/login/profile')
+            }
+        });
+        // setTimeout(()=>{
+
+        //     if(isLogin==null || !isLogin){
+    
+        //         if(logmail!="" && logpassword==""){
+        //             alert("Please fill all details ")
+        //         }else if(logmail=="" && logpassword!=""){
+        //             alert("Please fill all details ")
+        //         }else{
+        //             alert("Account not found, Please create account ")
+        //     }
+        //     }
+        // },1000)
+    }
     const submit=()=>{
-        var signup = JSON.parse(localStorage.getItem("signup"))
-        var obj1={
+        var signup = JSON.parse(localStorage.getItem("signup")) || [];
+        var obj={
             fname:fname,
             lname:lname,
-            signmail:signmail,
-            signpassword:signpassword
+            email:signmail,
+            password:signpassword,
         }
-        localStorage.setItem("signup", JSON.stringify(obj1));
-        if(signmail=="" || signpassword=="" || fname=="" || lname==""){
-            alert('Fill all data')
+        if(fname != "" && lname!="" && signmail!="" && signpassword!=""){
+            createAccdata(obj,dispatch)
+            // signup.push(obj);
+            // localStorage.setItem("signup",JSON.stringify(signup));
+            alert('Your account created successfully');
         }else{
-            alert('Account created Successfully')
-            nav('/login/profile')
+            alert('Please fill all details');
         }
-    }
-    const logsubmit=()=>{
-        var login = JSON.parse(localStorage.getItem("login")) 
-        var obj2={
-            logmail:logmail,
-            logpassword:logpassword
-        }
-        localStorage.setItem("login", JSON.stringify(obj2));
-        if(logmail=="" || logpassword==""){
-            alert('Fill all data')
-        }else{
-            alert('Login Successfull')
-            nav('/login/profile')
-        }
+
     }
     return(
         <div className="main">
@@ -76,7 +126,6 @@ function Main(){
             Jackie Club Points available to redeem them for
             discounts</p>
             </header>
-            <form>
                 <label className="emaillabel">EMAIL</label>
                 <input type="email" className="emailinput" value={logmail} onChange={logechange}></input>
                 <div className="passdivmain">
@@ -89,7 +138,7 @@ function Main(){
                 </div>
                 <input className="passinput" type="password" value={logpassword} onChange={logpasschange}></input>
                 <button className="btnsignin" onClick={()=>logsubmit()}>SIGN IN</button>
-            </form>
+           
             <div className="lastdiv">
                 <button className="facebookbtn">Facebook Login</button>
                 <button className="googlebtn">Google Login</button>
@@ -146,7 +195,7 @@ function Main(){
             <h1>CREATE ACCOUNT</h1>
             <p>Create your account, it´s free and you can earn Jackie Club Points in many ways, which you can then get discounts on</p>
             </header>
-            <form>
+            <div>
                 <label className="labels">FIRST NAME</label>
                 <input className="inputs" type="text" value={fname} onChange={fnamechange}></input>
                 <label className="labels">LAST NAME</label>
@@ -159,9 +208,11 @@ function Main(){
                     <button className="signupsubmit" onClick={()=>submit()}>SUBMIT</button>
                     <button className="signupcancel" onClick={()=>setRight(!right)}>CANCEL</button>
                 </div>
-            </form>
+            </div>
+            
         </div>
             }</div>
+           
         </div>
         </div>
     )

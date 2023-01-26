@@ -34,14 +34,14 @@ export default function Home() {
     const [state,setState] = React.useState([]);
     const [wcloth,setWcloth] = React.useState([]);
     const fetchingdata=()=>{
-        fetch(`https://jackiesmithserver.onrender.com/bags`).then((res)=>{
+        fetch(`http://localhost:3001/bags`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setState(res)
         })
     }
     const fetchingwomen=()=>{
-        fetch(`https://jackiesmithserver.onrender.com/Women_Clothing`).then((res)=>{
+        fetch(`http://localhost:3001/Women_Clothing`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setWcloth(res);

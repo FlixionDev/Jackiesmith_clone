@@ -4,7 +4,7 @@ import Style from './Sneaker.module.css';
 import {Outlet} from 'react-router-dom'
 export default function Sneaker() {
     useEffect(()=>{
-        fetchingsneaker(`https://jackiesmithserver.onrender.com/sneaker`);    
+        fetchingsneaker(`http://localhost:3001/sneaker`);    
     },[]);
     var ref1=React.useRef("");
     var ref2=React.useRef("");
@@ -21,13 +21,13 @@ export default function Sneaker() {
         
         var sort=ref1.current.value;
         if(sort==='' && ref2.current.value===''){
-            fetchingsneaker(`https://jackiesmithserver.onrender.com/sneaker`)
+            fetchingsneaker(`http://localhost:3001/sneaker`)
         }else if(sort!=='' && ref2.current.value===''){
-            fetchingsneaker(`https://jackiesmithserver.onrender.com/sneaker?_sort=price&_order=${sort}`)
+            fetchingsneaker(`http://localhost:3001/sneaker?_sort=price&_order=${sort}`)
         }else if(sort==='' && ref2.current.value!==''){
-            fetchingsneaker(`https://jackiesmithserver.onrender.com/sneaker?title_like=${ref2.current.value}`)
+            fetchingsneaker(`http://localhost:3001/sneaker?title_like=${ref2.current.value}`)
         }else{
-            fetchingsneaker(`https://jackiesmithserver.onrender.com/sneaker?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
+            fetchingsneaker(`http://localhost:3001/sneaker?title_like=${ref2.current.value}&_sort=price&_order=${sort}`)
         }
         
     }

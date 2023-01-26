@@ -13,7 +13,9 @@ import Payment from "./Components/checkout/Payment"
 import Profile from './Components/Login&signup/Profile';
 import Foot from './Components/Login&signup/Foot';
 import Wishlist from './Components/Wishlist/Wishlist';
+import Privateroute from './Components/Privateroute/Privateroute';
 function App() {
+  var isLogin= localStorage.getItem("isLogin");
   return (
     <div className="App">
     {/* <Navbar /> */}
@@ -27,7 +29,7 @@ function App() {
       <Route  path='/checkout' element={<Info/>}/>
       <Route  path='/payment' element={<Payment/>}/>
       <Route path='/wishlist' element={<div><Navbar/><Wishlist/></div>}/>
-      <Route path='/login' element={<Main />}/>
+      <Route path='/login' element={<Privateroute><Main/></Privateroute>}/>
       <Route path='/login/profile' element={<Profile />}/>
 
 
