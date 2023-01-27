@@ -4,7 +4,8 @@ import { Icon ,Accordion,AccordionButton,AccordionIcon,Box,AccordionItem,Accordi
 import { ChevronLeftIcon } from '@chakra-ui/icons'
 import './payment.css'
 import {useSelector} from 'react-redux'
-
+import { deleteProduct } from '../../Redux/Action/Action'
+import { useDispatch } from 'react-redux'
 function Payment() {
   const store=useSelector((store)=>{return store.total})
   //console.log(store)
@@ -12,7 +13,9 @@ function Payment() {
   const [code,setCode]=useState("")
   const [card,setCard]=useState(true)
   const [car,setCar]=useState(true)
+  const [empty,setEmpty]=useState([]);
   const nav=useNavigate();
+  const dispatch=useDispatch();
 
   return (
     <div className='address2'>
@@ -84,6 +87,7 @@ function Payment() {
           setTimeout(()=>{
             //window.location="/"
             nav('/')
+            deleteProduct(empty,dispatch)
           },2000)
 
         }}>PAY</button></Link></div>
