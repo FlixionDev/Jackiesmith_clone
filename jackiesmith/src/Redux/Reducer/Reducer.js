@@ -38,6 +38,12 @@ export const Reducer=(data=init,action)=>{
                 total:action.payload,
             }
         }
+        case "DELETE":{
+            return {
+                ...data,
+                Cart:action.payload
+            }
+        }
         default:{
             return data
         }

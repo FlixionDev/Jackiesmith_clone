@@ -13,9 +13,6 @@ export const logAuth=(data,dispatch)=>{
     })
 }
 export const actionCart=(arr,dispatch)=>{
-    //arr.push(data);
-    //  var newarr=arr;
-    //newarr.push(data)
     dispatch({
         type:"ADDTOCART",
         payload:arr,
@@ -25,5 +22,11 @@ export const actiontotal=(data,dispatch)=>{
     dispatch({
         type:"TOTALAMT",
         payload:data,
+    })
+}
+export const deleteProduct=(data,dispatch)=>{
+    dispatch({
+        type:"DELETE",
+        payload:[...data],
     })
 }

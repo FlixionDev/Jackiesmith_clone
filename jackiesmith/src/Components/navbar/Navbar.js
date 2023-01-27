@@ -12,6 +12,7 @@ import Dropdown4 from '../dropdown/Dropdown4'
 import {useSelector} from 'react-redux'
 import {useDispatch} from 'react-redux'
 import { actiontotal } from '../../Redux/Action/Action'
+import { deleteProduct } from '../../Redux/Action/Action';
 
 function Navbar() {
   const [d1,setd1]=useState(false);
@@ -19,17 +20,19 @@ function Navbar() {
   const [d3,setd3]=useState(false);
   const [d4,setd4]=useState(false);
   const [cart,setCart]=useState(false);
-  const store=useSelector((store)=>{return store.Cart})
+  let store=useSelector((store)=>{return store.Cart})
+ // const [fs,setFs]=useState([...store]);
+  
   const isAuth=useSelector((store)=>{return store.isAuth})
 
-  console.log(store)
+  //console.log(store)
   const dispatch=useDispatch();
   var lcart =JSON.parse(localStorage.getItem("cart")) || [];
   const [cartlen,setCartlen]=useState(lcart);
   const [num,setNum]=useState(1);
   const [total,setTotal]= useState(0);
   useEffect(()=>{
-
+    //console.log(fs)
     if(store.length>0){
       let tot=store.reduce((acc,el)=>{
         return acc+Number(el.price)*Number(el.count);
@@ -37,9 +40,16 @@ function Navbar() {
       //console.log(tot)
      setTotal(tot)
     }
+    //setFs(store)
   })
   const sendtoaction=()=>{
     actiontotal(total,dispatch);
+  }
+  const deletingProduct=(i)=>{
+    //console.log(i);
+    store.splice(i,1);
+    //console.log(store)
+    deleteProduct(store,dispatch)
   }
   return (
     <div>
@@ -99,7 +109,7 @@ function Navbar() {
                 {/* <div style={{display:"none"}}>var t=Number(ele.price)*Number(ele.count)</div> */}
                 <div style={{marginTop:"20px"}}>$ {(Number(ele.price)*Number(ele.count)).toFixed(2)}</div>
                 </div>
-                <div style={{marginTop:"20px"}}><button><FaTrash/></button></div>
+                <div style={{marginTop:"20px"}}><button onClick={()=>{deletingProduct(ind)}}><FaTrash/></button></div>
               </div>
             
             })}
